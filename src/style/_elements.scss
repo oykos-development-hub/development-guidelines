@@ -1,0 +1,368 @@
+// Styles that affect elements' properties like padding, margin, position etc.
+// Normalizing and standardizing body styles
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+// Normalizing and standardizing header and paragraph styles
+h1, h2, h3, h4, h5, h6, p {
+  margin: 3px;
+  padding: 3px;
+}
+/**********     MARGIN STYLES    **********/
+.margin-0 {
+  margin: 0;
+}
+
+.margin-30 {
+  margin: 30px
+}
+// Horizontal margin
+.margin-h-30 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+// Vertical margin
+.margin-v-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.margin-r-15 {
+  margin-right: 15px;
+}
+// Margin with important notice
+.margin-r-15-i {
+  margin-right: 15px !important;
+}
+
+.margin-t-0-i {
+  margin-top: 0 !important;
+}
+
+.margin-t-5 {
+  margin-top: 5px;
+}
+// Margin with negative value
+.margin-t-min-10 {
+  margin-top: -10px;
+}
+
+/**********     PADDING STYLES    **********/
+.padding-0 {
+  padding: 0;
+}
+
+.padding-0-i {
+  padding: 0 !important;
+}
+
+.padding-h-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.padding-v-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.padding-t-5 {
+  padding-top: 5px;
+}
+
+.padding-b-7 {
+  padding-bottom: 7px;
+}
+
+.padding-l-15 {
+  padding-left: 15px;
+}
+
+.padding-r-15 {
+  padding-right: 15px;
+}
+
+/**********     BORDER STYLES    **********/
+.border-t {
+  border-top: 1px solid #333;
+}
+
+.border-w-4 {
+  border-width: 4px;
+}
+
+.border-b {
+  border-bottom: 1px solid #333;
+}
+
+.border-r {
+  border-right: 1px solid #333;
+}
+
+.border-1px {
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+.border-2px {
+  border: 2px solid #333;
+  box-sizing: border-box;
+}
+
+.border-radius-6 {
+  border-radius: 6px;
+}
+
+.border-radius-50-perc {
+  border-radius: 50%;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-none-i {
+  border: none !important;
+}
+
+/**********     WIDTH STYLES    **********/
+
+.w-0 {
+  width: 0%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-20-perc {
+  width: 20%;
+}
+
+.w-50-perc {
+  width: 50%;
+}
+
+.w-100-perc {
+  width: 100%;
+}
+
+.w-110-perc {
+  width: 110%;
+}
+
+.min-max-w-100-perc {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.min-max-w-120-perc {
+  width: 120%;
+  min-width: 120%;
+  max-width: 120%;
+}
+.max-w-10-perc {
+  max-width: 10%;
+}
+
+.min-max-w-30-perc {
+  width: 30%;
+  max-width: 30%;
+  min-width: 30%;
+}
+
+.min-max-w-180-px {
+  width: 180px;
+  max-width: 180px;
+  min-width: 180px;
+}
+
+.max-w-0 {
+  max-width: 0px;
+}
+
+.max-w-500 {
+  max-width: 500px;
+}
+
+.min-w-80 {
+  min-width: 80px;
+}
+
+.min-w-130 {
+  min-width: 130px;
+}
+
+.min-w-25-perc {
+  min-width: 25%;
+}
+
+.min-max-h-100-perc {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.min-max-h-120-perc {
+  height: 120%;
+  min-height: 120%;
+  max-height: 120%;
+}
+
+.min-h-100-vh {
+  min-height: 100vh;
+}
+
+.min-h-200 {
+  min-height: 200px;
+}
+
+/**********     HEIGHT STYLES    **********/
+
+.h-100-perc {
+  height: 100%;
+}
+
+.h-110-perc {
+  height: 110%;
+}
+
+/**********     VISIBILITY STYLES    **********/
+
+.hidden {
+  visibility: hidden;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-3 {
+  z-index: 3;
+}
+
+.z-999 {
+  z-index: 999;
+}
+
+.z-999999 {
+  z-index: 999999;
+}
+
+/**********     POSITION STYLES    **********/
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.position-middle {
+  top: 50%;
+  left: 50%;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+/**********     FOREGROUND/BACKGROUND STYLES    **********/
+
+.pointer {
+  cursor: pointer;
+}
+
+.background-center {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.background-size-cover {
+  background-size: cover;
+}
+
+.background-size-120-perc {
+  background-size: 120% 120%;
+}
+
+.clean-background {
+  background-color: #ffffffee;
+}
+
+.lightened-background {
+  background-color: #e3e3e377;
+}
+
+.dimmed-background {
+  background-color: #33333388;
+}
+
+.shadow-medium {
+  box-shadow: 0 0 30px -5px #333;
+}
+
+.shadow-b-light {
+  box-shadow: 0 10px 20px -4px #333;
+}
+
+.shadow-b-r-light {
+  box-shadow: 10px 10px 30px -17px #333;
+}
+

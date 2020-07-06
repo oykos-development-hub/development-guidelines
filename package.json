@@ -1,0 +1,50 @@
+{
+  "name": "oykos-development-guidelines",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --mode development",
+    "fiesta": "webpack-dev-server --mode development",
+    "build": "node mark-version.js",
+    "webpackProd": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@webpack-cli/serve": "^0.1.8",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "babel-preset-react": "^6.24.1",
+    "file-system": "^2.2.2",
+    "filestack-js": "^3.13.2",
+    "filestack-react": "^3.1.0",
+    "fs": "^0.0.1-security",
+    "node-html-parser": "^1.2.4",
+    "node-minify": "^3.6.0",
+    "react": "^16.10.2",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.10.2",
+    "react-images-upload": "^1.2.8",
+    "react-router-dom": "^5.1.2"
+  }
+}
