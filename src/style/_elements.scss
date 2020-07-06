@@ -2356,42 +2356,91 @@ h1, h2, h3, h4, h5, h6, p {
   visibility: hidden;
 }
 
-.overflow-hidden {
+.visible {
+  visibility: visible;
+}
+//Overflow
+.overflow-hidden, .overflow-h {
   overflow: hidden;
 }
 
-.overflow-auto {
+.overflow-auto, .overflow-a {
   overflow: auto;
 }
 
-.overflow-x-hidden {
+.overflow-scroll, .overflow-s {
+  overflow: scroll;
+}
+
+.overflow-x-hidden, .overflow-x-h {
   overflow-x: hidden;
 }
 
-.overflow-y-hidden {
+.overflow-x-auto, .overflow-x-a {
+  overflow-x: auto;
+}
+
+.overflow-x-scroll, .overflow-x-s {
+  overflow-x: scroll;
+}
+
+.overflow-y-hidden, .overflow-y-h {
   overflow-y: hidden;
 }
 
-.overflow-y-auto {
+.overflow-y-auto, .overflow-y-a {
   overflow-y: auto;
 }
 
-.opacity-0 {
+.overflow-y-scroll, .overflow-y-s {
+  overflow-y: scroll;
+}
+//Opacity
+.opacity-0, .opacity-00, .opacity-0perc, .opacity-0-perc {
   opacity: 0;
 }
 
-.opacity-20 {
+.opacity-10, .opacity-01, .opacity-10perc, .opacity-10-perc {
+  opacity: 0.1;
+}
+
+.opacity-20, .opacity-02, .opacity-20perc, .opacity-20-perc {
   opacity: 0.2;
 }
 
-.opacity-80 {
+
+.opacity-30, .opacity-03, .opacity-30perc, .opacity-30-perc {
+  opacity: 0.3;
+}
+
+.opacity-40, .opacity-04, .opacity-40perc, .opacity-40-perc {
+  opacity: 0.4;
+}
+
+.opacity-50, .opacity-05, .opacity-50perc, .opacity-50-perc {
+  opacity: 0.5;
+}
+
+.opacity-60, .opacity-06, .opacity-60perc, .opacity-60-perc {
+  opacity: 0.6;
+}
+
+.opacity-70, .opacity-07, .opacity-70perc, .opacity-70-perc {
+  opacity: 0.7;
+}
+
+.opacity-80, .opacity-08, .opacity-80perc, .opacity-80-perc {
   opacity: 0.8;
 }
 
-.opacity-1 {
-  opacity: 1;
+.opacity-90, .opacity-09, .opacity-90perc, .opacity-90-perc {
+  opacity: 0.9;
 }
 
+.opacity-1, .opacity-100perc, .opacity-100-perc {
+  opacity: 1;
+}
+//Z-index
 .z-1 {
   z-index: 1;
 }
@@ -2410,8 +2459,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 /**********     POSITION STYLES    **********/
 
-.relative {
+.relative, .position-relative, .pos-relative {
   position: relative;
+}
+
+.position-normal, .pos-normal, .position-default, .pos-default {
+  position: static;
 }
 
 .absolute {
@@ -2422,19 +2475,550 @@ h1, h2, h3, h4, h5, h6, p {
   position: fixed;
 }
 
-.top-left {
+.left-0, .position-left-0, .pos-left-0 {
+  left: 0;
+}
+
+.left-5, .position-left-5, .pos-left-5 {
+  left: 5;
+}
+
+.left-10, .position-left-10, .pos-left-10 {
+  left: 10;
+}
+
+.left-15, .position-left-15, .pos-left-15 {
+  left: 15;
+}
+
+.left-20, .position-left-20, .pos-left-20 {
+  left: 20;
+}
+
+.left-25, .position-left-25, .pos-left-25 {
+  left: 25;
+}
+
+.left-30, .position-left-30, .pos-left-30 {
+  left: 30;
+}
+
+.left-40, .position-left-40, .pos-left-40 {
+  left: 40;
+}
+
+.left-50, .position-left-50, .pos-left-50 {
+  left: 50;
+}
+
+.left-60, .position-left-60, .pos-left-60 {
+  left: 60;
+}
+
+.left-100, .position-left-100, .pos-left-100 {
+  left: 100;
+}
+
+.left-initial, .position-left-initial, .pos-left-initial {
+  left: initial;
+}
+
+.left-5-perc, .left-5perc, .position-left-5-perc, .position-left-5perc, .pos-left-5-perc, .pos-left-5perc {
+  left: 5%;
+}
+
+.left-10-perc, .left-10perc, .position-left-10-perc, .position-left-10perc, .pos-left-10-perc, .pos-left-10perc {
+  left: 10%;
+}
+
+.left-20-perc, .left-20perc, .position-left-20-perc, .position-left-20perc, .pos-left-20-perc, .pos-left-20perc {
+  left: 20%;
+}
+
+.left-25-perc, .left-25perc, .position-left-25-perc, .position-left-25perc, .pos-left-5-perc, .pos-left-25perc {
+  left: 25%;
+}
+
+.left-30-perc, .left-30perc, .position-left-30-perc, .position-left-30perc, .pos-left-30-perc, .pos-left-30perc {
+  left: 30%;
+}
+
+.left-33-perc, .left-33perc, .position-left-33-perc, .position-left-33perc, .pos-left-33-perc, .pos-left-33perc {
+  left: 33%;
+}
+
+.left-50-perc, .left-50perc, .position-left-50-perc, .position-left-50perc, .pos-left-50-perc, .pos-left-50perc {
+  left: 50%;
+}
+
+.left-100-perc, .left-100perc, .position-left-100-perc, .position-left-100perc, .pos-left-100-perc, .pos-left-100perc {
+  left: 100%;
+}
+
+.right-0, .position-right-0, .pos-right-0 {
+  right: 0;
+}
+
+.right-5, .position-right-5, .pos-right-5 {
+  right: 5;
+}
+
+.right-10, .position-right-10, .pos-right-10 {
+  right: 10;
+}
+
+.right-15, .position-right-15, .pos-right-15 {
+  right: 15;
+}
+
+.right-20, .position-right-20, .pos-right-20 {
+  right: 20;
+}
+
+.right-25, .position-right-25, .pos-right-25 {
+  right: 25;
+}
+
+.right-30, .position-right-30, .pos-right-30 {
+  right: 30;
+}
+
+.right-40, .position-right-40, .pos-right-40 {
+  right: 40;
+}
+
+.right-50, .position-right-50, .pos-right-50 {
+  right: 50;
+}
+
+.right-60, .position-right-60, .pos-right-60 {
+  right: 60;
+}
+
+.right-100, .position-right-100, .pos-right-100 {
+  right: 100;
+}
+
+.right-initial, .position-right-initial, .pos-right-initial {
+  right: initial;
+}
+
+.right-5-perc, .right-5perc, .position-right-5-perc, .position-right-5perc, .pos-right-5-perc, .pos-right-5perc {
+  right: 5%;
+}
+
+.right-10-perc, .right-10perc, .position-right-10-perc, .position-right-10perc, .pos-right-10-perc, .pos-right-10perc {
+  right: 10%;
+}
+
+.right-20-perc, .right-20perc, .position-right-20-perc, .position-right-20perc, .pos-right-20-perc, .pos-right-20perc {
+  right: 20%;
+}
+
+.right-25-perc, .right-25perc, .position-right-25-perc, .position-right-25perc, .pos-right-5-perc, .pos-right-25perc {
+  right: 25%;
+}
+
+.right-30-perc, .right-30perc, .position-right-30-perc, .position-right-30perc, .pos-right-30-perc, .pos-right-30perc {
+  right: 30%;
+}
+
+.right-33-perc, .right-33perc, .position-right-33-perc, .position-right-33perc, .pos-right-33-perc, .pos-right-33perc {
+  right: 33%;
+}
+
+.right-50-perc, .right-50perc, .position-right-50-perc, .position-right-50perc, .pos-right-50-perc, .pos-right-50perc {
+  right: 50%;
+}
+
+.right-100-perc, .right-100perc, .position-right-100-perc, .position-right-100perc, .pos-right-100-perc, .pos-right-100perc {
+  right: 100%;
+}
+
+.top-0, .position-top-0, .pos-top-0 {
+  top: 0;
+}
+
+.top-5, .position-top-5, .pos-top-5 {
+  top: 5;
+}
+
+.top-10, .position-top-10, .pos-top-10 {
+  top: 10;
+}
+
+.top-15, .position-top-15, .pos-top-15 {
+  top: 15;
+}
+
+.top-20, .position-top-20, .pos-top-20 {
+  top: 20;
+}
+
+.top-25, .position-top-25, .pos-top-25 {
+  top: 25;
+}
+
+.top-30, .position-top-30, .pos-top-30 {
+  top: 30;
+}
+
+.top-40, .position-top-40, .pos-top-40 {
+  top: 40;
+}
+
+.top-50, .position-top-50, .pos-top-50 {
+  top: 50;
+}
+
+.top-60, .position-top-60, .pos-top-60 {
+  top: 60;
+}
+
+.top-100, .position-top-100, .pos-top-100 {
+  top: 100;
+}
+
+.top-initial, .position-top-initial, .pos-top-initial {
+  top: initial;
+}
+
+.top-5-perc, .top-5perc, .position-top-5-perc, .position-top-5perc, .pos-top-5-perc, .pos-top-5perc {
+  top: 5%;
+}
+
+.top-10-perc, .top-10perc, .position-top-10-perc, .position-top-10perc, .pos-top-10-perc, .pos-top-10perc {
+  top: 10%;
+}
+
+.top-20-perc, .top-20perc, .position-top-20-perc, .position-top-20perc, .pos-top-20-perc, .pos-top-20perc {
+  top: 20%;
+}
+
+.top-25-perc, .top-25perc, .position-top-25-perc, .position-top-25perc, .pos-top-5-perc, .pos-top-25perc {
+  top: 25%;
+}
+
+.top-30-perc, .top-30perc, .position-top-30-perc, .position-top-30perc, .pos-top-30-perc, .pos-top-30perc {
+  top: 30%;
+}
+
+.top-33-perc, .top-33perc, .position-top-33-perc, .position-top-33perc, .pos-top-33-perc, .pos-top-33perc {
+  top: 33%;
+}
+
+.top-50-perc, .top-50perc, .position-top-50-perc, .position-top-50perc, .pos-top-50-perc, .pos-top-50perc {
+  top: 50%;
+}
+
+.top-100-perc, .top-100perc, .position-top-100-perc, .position-top-100perc, .pos-top-100-perc, .pos-top-100perc {
+  top: 100%;
+}
+
+.bottom-0, .position-bottom-0, .pos-bottom-0 {
+  bottom: 0;
+}
+
+.bottom-5, .position-bottom-5, .pos-bottom-5 {
+  bottom: 5;
+}
+
+.bottom-10, .position-bottom-10, .pos-bottom-10 {
+  bottom: 10;
+}
+
+.bottom-15, .position-bottom-15, .pos-bottom-15 {
+  bottom: 15;
+}
+
+.bottom-20, .position-bottom-20, .pos-bottom-20 {
+  bottom: 20;
+}
+
+.bottom-25, .position-bottom-25, .pos-bottom-25 {
+  bottom: 25;
+}
+
+.bottom-30, .position-bottom-30, .pos-bottom-30 {
+  bottom: 30;
+}
+
+.bottom-40, .position-bottom-40, .pos-bottom-40 {
+  bottom: 40;
+}
+
+.bottom-50, .position-bottom-50, .pos-bottom-50 {
+  bottom: 50;
+}
+
+.bottom-60, .position-bottom-60, .pos-bottom-60 {
+  bottom: 60;
+}
+
+.bottom-100, .position-bottom-100, .pos-bottom-100 {
+  bottom: 100;
+}
+
+.bottom-initial, .position-bottom-initial, .pos-bottom-initial {
+  bottom: initial;
+}
+
+.bottom-5-perc, .bottom-5perc, .position-bottom-5-perc, .position-bottom-5perc, .pos-bottom-5-perc, .pos-bottom-5perc {
+  bottom: 5%;
+}
+
+.bottom-10-perc, .bottom-10perc, .position-bottom-10-perc, .position-bottom-10perc, .pos-bottom-10-perc, .pos-bottom-10perc {
+  bottom: 10%;
+}
+
+.bottom-20-perc, .bottom-20perc, .position-bottom-20-perc, .position-bottom-20perc, .pos-bottom-20-perc, .pos-bottom-20perc {
+  bottom: 20%;
+}
+
+.bottom-25-perc, .bottom-25perc, .position-bottom-25-perc, .position-bottom-25perc, .pos-bottom-5-perc, .pos-bottom-25perc {
+  bottom: 25%;
+}
+
+.bottom-30-perc, .bottom-30perc, .position-bottom-30-perc, .position-bottom-30perc, .pos-bottom-30-perc, .pos-bottom-30perc {
+  bottom: 30%;
+}
+
+.bottom-33-perc, .bottom-33perc, .position-bottom-33-perc, .position-bottom-33perc, .pos-bottom-33-perc, .pos-bottom-33perc {
+  bottom: 33%;
+}
+
+.bottom-50-perc, .bottom-50perc, .position-bottom-50-perc, .position-bottom-50perc, .pos-bottom-50-perc, .pos-bottom-50perc {
+  bottom: 50%;
+}
+
+.bottom-100-perc, .bottom-100perc, .position-bottom-100-perc, .position-bottom-100perc, .pos-bottom-100-perc, .pos-bottom-100perc {
+  bottom: 100%;
+}
+
+.top-left-0, .position-top-left-0, .position-t-l-0, .pos-top-left-0 {
   top: 0;
   left: 0;
 }
 
-.top-right {
+.top-left-5, .position-top-left-5, .position-t-l-5, .pos-top-left-5 {
+  top: 5px;
+  left: 5px;
+}
+
+.top-left-10, .position-top-left-10, .position-t-l-10, .pos-top-left-10 { 
+  top: 10px; 
+  left: 10px; 
+}
+
+.top-left-15, .position-top-left-15, .position-t-l-15, .pos-top-left-15 { 
+  top: 15px; 
+  left: 15px; 
+}
+
+.top-left-20, .position-top-left-20, .position-t-l-20, .pos-top-left-20 { 
+  top: 20px; 
+  left: 20px; 
+}
+
+.top-left-25, .position-top-left-25, .position-t-l-25, .pos-top-left-25 { 
+  top: 25px; 
+  left: 25px; 
+}
+
+.top-left-30, .position-top-left-30, .position-t-l-30, .pos-top-left-30 { 
+  top: 30px; 
+  left: 30px; 
+}
+
+.top-left-40, .position-top-left-40, .position-t-l-40, .pos-top-left-40 { 
+  top: 40px; 
+  left: 40px; 
+}
+
+.top-left-50, .position-top-left-50, .position-t-l-50, .pos-top-left-50 { 
+  top: 50px; 
+  left: 50px; 
+}
+
+.top-left-60, .position-top-left-60, .position-t-l-60, .pos-top-left-60 { 
+  top: 60px; 
+  left: 60px; 
+}
+
+.top-left-100, .position-top-left-100, .position-t-l-100, .pos-top-left-100 { 
+  top: 100px; 
+  left: 100px; 
+}
+
+.top-right-0, .position-top-right-0, .position-t-r-0, .pos-top-right-0 {
   top: 0;
   right: 0;
 }
 
-.position-middle {
-  top: 50%;
-  left: 50%;
+.top-right-5, .position-top-right-5, .position-t-r-5, .pos-top-right-5 {
+  top: 5px;
+  right: 5px;
+}
+
+.top-right-10, .position-top-right-10, .position-t-r-10, .pos-top-right-10 { 
+  top: 10px; 
+  right: 10px; 
+}
+
+.top-right-15, .position-top-right-15, .position-t-r-15, .pos-top-right-15 { 
+  top: 15px; 
+  right: 15px; 
+}
+
+.top-right-20, .position-top-right-20, .position-t-r-20, .pos-top-right-20 { 
+  top: 20px; 
+  right: 20px; 
+}
+
+.top-right-25, .position-top-right-25, .position-t-r-25, .pos-top-right-25 { 
+  top: 25px; 
+  right: 25px; 
+}
+
+.top-right-30, .position-top-right-30, .position-t-r-30, .pos-top-right-30 { 
+  top: 30px; 
+  right: 30px; 
+}
+
+.top-right-40, .position-top-right-40, .position-t-r-40, .pos-top-right-40 { 
+  top: 40px; 
+  right: 40px; 
+}
+
+.top-right-50, .position-top-right-50, .position-t-r-50, .pos-top-right-50 { 
+  top: 50px; 
+  right: 50px; 
+}
+
+.top-right-60, .position-top-right-60, .position-t-r-60, .pos-top-right-60 { 
+  top: 60px; 
+  right: 60px; 
+}
+
+.top-right-100, .position-top-right-100, .position-t-r-100, .pos-top-right-100 { 
+  top: 100px; 
+  right: 100px; 
+}
+
+.bottom-left-0, .position-bottom-left-0, .position-b-l-0, .pos-bottom-left-0 {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-left-5, .position-bottom-left-5, .position-b-l-5, .pos-bottom-left-5 {
+  bottom: 5px;
+  left: 5px;
+}
+
+.bottom-left-10, .position-bottom-left-10, .position-b-l-10, .pos-bottom-left-10 { 
+  bottom: 10px; 
+  left: 10px; 
+}
+
+.bottom-left-15, .position-bottom-left-15, .position-b-l-15, .pos-bottom-left-15 { 
+  bottom: 15px; 
+  left: 15px; 
+}
+
+.bottom-left-20, .position-bottom-left-20, .position-b-l-20, .pos-bottom-left-20 { 
+  bottom: 20px; 
+  left: 20px; 
+}
+
+.bottom-left-25, .position-bottom-left-25, .position-b-l-25, .pos-bottom-left-25 { 
+  bottom: 25px; 
+  left: 25px; 
+}
+
+.bottom-left-30, .position-bottom-left-30, .position-b-l-30, .pos-bottom-left-30 { 
+  bottom: 30px; 
+  left: 30px; 
+}
+
+.bottom-left-40, .position-bottom-left-40, .position-b-l-40, .pos-bottom-left-40 { 
+  bottom: 40px; 
+  left: 40px; 
+}
+
+.bottom-left-50, .position-bottom-left-50, .position-b-l-50, .pos-bottom-left-50 { 
+  bottom: 50px; 
+  left: 50px; 
+}
+
+.bottom-left-60, .position-bottom-left-60, .position-b-l-60, .pos-bottom-left-60 { 
+  bottom: 60px; 
+  left: 60px; 
+}
+
+.bottom-left-100, .position-bottom-left-100, .position-b-l-100, .pos-bottom-left-100 { 
+  bottom: 100px; 
+  left: 100px; 
+}
+
+.bottom-right-0, .position-bottom-right-0, .position-b-r-0, .pos-bottom-right-0 {
+  bottom: 0;
+  right: 0;
+}
+
+.bottom-right-5, .position-bottom-right-5, .position-b-r-5, .pos-bottom-right-5 {
+  bottom: 5px;
+  right: 5px;
+}
+
+.bottom-right-10, .position-bottom-right-10, .position-b-r-10, .pos-bottom-right-10 { 
+  bottom: 10px; 
+  right: 10px; 
+}
+
+.bottom-right-15, .position-bottom-right-15, .position-b-r-15, .pos-bottom-right-15 { 
+  bottom: 15px; 
+  right: 15px; 
+}
+
+.bottom-right-20, .position-bottom-right-20, .position-b-r-20, .pos-bottom-right-20 { 
+  bottom: 20px; 
+  right: 20px; 
+}
+
+.bottom-right-25, .position-bottom-right-25, .position-b-r-25, .pos-bottom-right-25 { 
+  bottom: 25px; 
+  right: 25px; 
+}
+
+.bottom-right-30, .position-bottom-right-30, .position-b-r-30, .pos-bottom-right-30 { 
+  bottom: 30px; 
+  right: 30px; 
+}
+
+.bottom-right-40, .position-bottom-right-40, .position-b-r-40, .pos-bottom-right-40 { 
+  bottom: 40px; 
+  right: 40px; 
+}
+
+.bottom-right-50, .position-bottom-right-50, .position-b-r-50, .pos-bottom-right-50 { 
+  bottom: 50px; 
+  right: 50px; 
+}
+
+.bottom-right-60, .position-bottom-right-60, .position-b-r-60, .pos-bottom-right-60 { 
+  bottom: 60px; 
+  right: 60px; 
+}
+
+.bottom-right-100, .position-bottom-right-100, .position-b-r-100, .pos-bottom-right-100 { 
+  bottom: 100px; 
+  right: 100px; 
+}
+
+
+.position-center, .position-middle, .pos-center, .pos-middle { 
+  left: 50%; 
+  top: 50% 
 }
 
 .bottom-0 {
