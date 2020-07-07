@@ -2441,22 +2441,53 @@ h1, h2, h3, h4, h5, h6, p {
   opacity: 1;
 }
 //Z-index
-.z-1 {
+.z-min-1, .z-index-min-1 {
+  z-index: -1;
+}
+
+.z-0, .z-index-0 {
+  z-index: 0;
+}
+
+.z-1, .z-index-1 {
   z-index: 1;
 }
 
-.z-3 {
+.z-2, .z-index-2 {
+  z-index: 2;
+}
+
+.z-3, .z-index-3 {
   z-index: 3;
 }
 
-.z-999 {
+.z-4, .z-index-4 {
+  z-index: 4;
+}
+
+.z-5, .z-index-5 {
+  z-index: 5;
+}
+
+.z-9, .z-index-9 {
+  z-index: 9;
+}
+
+.z-99, .z-index-99 {
+  z-index: 99;
+}
+
+.z-999, .z-index-999 {
   z-index: 999;
 }
 
-.z-999999 {
-  z-index: 999999;
+.z-9999, .z-index-9999 {
+  z-index: 9999;
 }
 
+.z-999999, .z-index-999999 {
+  z-index: 999999;
+}
 /**********     POSITION STYLES    **********/
 
 .relative, .position-relative, .pos-relative {
@@ -3015,6 +3046,167 @@ h1, h2, h3, h4, h5, h6, p {
   right: 100px; 
 }
 
+.top-left-5-perc, .top-left-5perc .position-top-left-5-perc, .position-top-left-5perc .position-t-l-5-perc, .position-t-l-5perc {
+  top: 5%;
+  left: 5%;
+}
+
+.top-left-10-perc, .top-left-10perc .position-top-left-10-perc, .position-top-left-10perc .position-t-l-10-perc, .position-t-l-10perc {
+  top: 10%;
+  left: 10%;
+}
+
+.top-left-20-perc, .top-left-20perc .position-top-left-20-perc, .position-top-left-20perc .position-t-l-20-perc, .position-t-l-20perc {
+  top: 20%;
+  left: 20%;
+}
+
+.top-left-25-perc, .top-left-25perc .position-top-left-25-perc, .position-top-left-25perc .position-t-l-25-perc, .position-t-l-25perc {
+  top: 25%;
+  left: 25%;
+}
+
+.top-left-30-perc, .top-left-30perc .position-top-left-30-perc, .position-top-left-30perc .position-t-l-30-perc, .position-t-l-30perc {
+  top: 30%;
+  left: 30%;
+}
+
+.top-left-33-perc, .top-left-33perc .position-top-left-33-perc, .position-top-left-33perc .position-t-l-33-perc, .position-t-l-33perc {
+  top: 33%;
+  left: 33%;
+}
+
+.top-left-50-perc, .top-left-50perc .position-top-left-50-perc, .position-top-left-50perc .position-t-l-50-perc, .position-t-l-50perc {
+  top: 50%;
+  left: 50%;
+}
+
+.top-left-100-perc, .top-left-100perc .position-top-left-100-perc, .position-top-left-100perc .position-t-l-100-perc, .position-t-l-100perc {
+  top: 100%;
+  left: 100%;
+}
+
+.top-right-5-perc, .top-right-5perc .position-top-right-5-perc, .position-top-right-5perc .position-t-r-5-perc, .position-t-r-5perc {
+  top: 5%;
+  right: 5%;
+}
+
+.top-right-10-perc, .top-right-10perc .position-top-right-10-perc, .position-top-right-10perc .position-t-r-10-perc, .position-t-r-10perc {
+  top: 10%;
+  right: 10%;
+}
+
+.top-right-20-perc, .top-right-20perc .position-top-right-20-perc, .position-top-right-20perc .position-t-r-20-perc, .position-t-r-20perc {
+  top: 20%;
+  right: 20%;
+}
+
+.top-right-25-perc, .top-right-25perc .position-top-right-25-perc, .position-top-right-25perc .position-t-r-25-perc, .position-t-r-25perc {
+  top: 25%;
+  right: 25%;
+}
+
+.top-right-30-perc, .top-right-30perc .position-top-right-30-perc, .position-top-right-30perc .position-t-r-30-perc, .position-t-r-30perc {
+  top: 30%;
+  right: 30%;
+}
+
+.top-right-33-perc, .top-right-33perc .position-top-right-33-perc, .position-top-right-33perc .position-t-r-33-perc, .position-t-r-33perc {
+  top: 33%;
+  right: 33%;
+}
+
+.top-right-50-perc, .top-right-50perc .position-top-right-50-perc, .position-top-right-50perc .position-t-r-50-perc, .position-t-r-50perc {
+  top: 50%;
+  right: 50%;
+}
+
+.top-right-100-perc, .top-right-100perc .position-top-right-100-perc, .position-top-right-100perc .position-t-r-100-perc, .position-t-r-100perc {
+  top: 100%;
+  right: 100%;
+}
+
+.bottom-left-5-perc, .bottom-left-5perc .position-bottom-left-5-perc, .position-bottom-left-5perc .position-b-l-5-perc, .position-b-l-5perc {
+  bottom: 5%;
+  left: 5%;
+}
+
+.bottom-left-10-perc, .bottom-left-10perc .position-bottom-left-10-perc, .position-bottom-left-10perc .position-b-l-10-perc, .position-b-l-10perc {
+  bottom: 10%;
+  left: 10%;
+}
+
+.bottom-left-20-perc, .bottom-left-20perc .position-bottom-left-20-perc, .position-bottom-left-20perc .position-b-l-20-perc, .position-b-l-20perc {
+  bottom: 20%;
+  left: 20%;
+}
+
+.bottom-left-25-perc, .bottom-left-25perc .position-bottom-left-25-perc, .position-bottom-left-25perc .position-b-l-25-perc, .position-b-l-25perc {
+  bottom: 25%;
+  left: 25%;
+}
+
+.bottom-left-30-perc, .bottom-left-30perc .position-bottom-left-30-perc, .position-bottom-left-30perc .position-b-l-30-perc, .position-b-l-30perc {
+  bottom: 30%;
+  left: 30%;
+}
+
+.bottom-left-33-perc, .bottom-left-33perc .position-bottom-left-33-perc, .position-bottom-left-33perc .position-b-l-33-perc, .position-b-l-33perc {
+  bottom: 33%;
+  left: 33%;
+}
+
+.bottom-left-50-perc, .bottom-left-50perc .position-bottom-left-50-perc, .position-bottom-left-50perc .position-b-l-50-perc, .position-b-l-50perc {
+  bottom: 50%;
+  left: 50%;
+}
+
+.bottom-left-100-perc, .bottom-left-100perc .position-bottom-left-100-perc, .position-bottom-left-100perc .position-b-l-100-perc, .position-b-l-100perc {
+  bottom: 100%;
+  left: 100%;
+}
+
+.bottom-right-5-perc, .bottom-right-5perc .position-bottom-right-5-perc, .position-bottom-right-5perc .position-b-r-5-perc, .position-b-r-5perc {
+  bottom: 5%;
+  right: 5%;
+}
+
+.bottom-right-10-perc, .bottom-right-10perc .position-bottom-right-10-perc, .position-bottom-right-10perc .position-b-r-10-perc, .position-b-r-10perc {
+  bottom: 10%;
+  right: 10%;
+}
+
+.bottom-right-20-perc, .bottom-right-20perc .position-bottom-right-20-perc, .position-bottom-right-20perc .position-b-r-20-perc, .position-b-r-20perc {
+  bottom: 20%;
+  right: 20%;
+}
+
+.bottom-right-25-perc, .bottom-right-25perc .position-bottom-right-25-perc, .position-bottom-right-25perc .position-b-r-25-perc, .position-b-r-25perc {
+  bottom: 25%;
+  right: 25%;
+}
+
+.bottom-right-30-perc, .bottom-right-30perc .position-bottom-right-30-perc, .position-bottom-right-30perc .position-b-r-30-perc, .position-b-r-30perc {
+  bottom: 30%;
+  right: 30%;
+}
+
+.bottom-right-33-perc, .bottom-right-33perc .position-bottom-right-33-perc, .position-bottom-right-33perc .position-b-r-33-perc, .position-b-r-33perc {
+  bottom: 33%;
+  right: 33%;
+}
+
+.bottom-right-50-perc, .bottom-right-50perc .position-bottom-right-50-perc, .position-bottom-right-50perc .position-b-r-50-perc, .position-b-r-50perc {
+  bottom: 50%;
+  right: 50%;
+}
+
+.bottom-right-100-perc, .bottom-right-100perc .position-bottom-right-100-perc, .position-bottom-right-100perc .position-b-r-100-perc, .position-b-r-100perc {
+  bottom: 100%;
+  right: 100%;
+}
+
+
 
 .position-center, .position-middle, .pos-center, .pos-middle { 
   left: 50%; 
@@ -3040,8 +3232,68 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
 }
 
+.background-size-contain {
+  background-size: contain;
+}
+
+.background-size-30-perc, .background-size-30perc, .bg-size-30perc, .bg-size-30-perc { 
+  background-size: 30% 30%; 
+}
+
+.background-size-50-perc, .background-size-50perc, .bg-size-50perc, .bg-size-50-perc { 
+  background-size: 50% 50%; 
+}
+
+.background-size-80-perc, .background-size-80perc, .bg-size-80perc, .bg-size-80-perc { 
+  background-size: 80% 80%; 
+}
+
+.background-size-100-perc, .background-size-100perc, .bg-size-100perc, .bg-size-100-perc { 
+  background-size: 100% 100%; 
+}
+
 .background-size-120-perc {
   background-size: 120% 120%;
+}
+
+.background-repeat, .bg-repeat {
+  background-repeat: repeat;
+}
+
+.background-no-repeat, .bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-position-initial, .bg-pos-initial { 
+  background-position: initial; 
+}
+
+.bg-position-0, .bg-pos-0 { 
+  background-position: 0px 0px; 
+}
+
+.bg-position-10, .bg-pos-10 { 
+  background-position: 10px 10px; 
+}
+
+.bg-position-30, .bg-pos-30 { 
+  background-position: 30px 30px; 
+}
+
+.bg-position-10-perc, .bg-pos-10-perc, .bg-position-10perc, .bg-pos-10perc { 
+  background-position: 10% 10%; 
+}
+
+.bg-position-25-perc, .bg-pos-25-perc, .bg-position-25perc, .bg-pos-25perc { 
+  background-position: 25% 25%; 
+}
+
+.bg-position-33-perc, .bg-pos-33-perc, .bg-position-33perc, .bg-pos-33perc { 
+  background-position: 33% 33%; 
+}
+
+.bg-position-50-perc, .bg-pos-50-perc, .bg-position-50perc, .bg-pos-50perc { 
+  background-position: 50% 50%; 
 }
 
 .clean-background {
@@ -3068,3 +3320,129 @@ h1, h2, h3, h4, h5, h6, p {
   box-shadow: 10px 10px 30px -17px #333;
 }
 
+// FLEXBOX //
+.flex, .row, .flex-row {
+  display: flex; 
+}
+
+.column, .flex-column, .flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-reverse, .flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.column-reverse, .flex-column-reverse, .flex-col-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.center, .center-all, .flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+//Grow & Shrink
+.grow-0, .flex-grow-0 {
+  flex-grow: 0;
+}
+
+.grow-1, .flex-grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2, .flex-grow-2 {
+  flex-grow: 2;
+}
+
+.grow-3, .flex-grow-3 {
+  flex-grow: 3;
+}
+
+.grow-4, .flex-grow-4 {
+  flex-grow: 4;
+}
+
+.grow-5, .flex-grow-5 {
+  flex-grow: 5;
+}
+
+.shrink-0, .flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.shrink-1, .flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+.shrink-2, .flex-shrink-2 {
+  flex-shrink: 2;
+}
+
+.shrink-3, .flex-shrink-3 {
+  flex-shrink: 3;
+}
+
+.shrink-4, .flex-shrink-4 {
+  flex-shrink: 4;
+}
+
+.shrink-5, .flex-shrink-5 {
+  flex-shrink: 5;
+}
