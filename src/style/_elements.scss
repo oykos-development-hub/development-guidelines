@@ -3446,6 +3446,14 @@ h1, h2, h3, h4, h5, h6, p {
 .shrink-5, .flex-shrink-5 {
   flex-shrink: 5;
 }
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
 //Font Size
 .font-size-8, .font-8 {
   font-size: 8px;
