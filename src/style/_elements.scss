@@ -2498,11 +2498,11 @@ h1, h2, h3, h4, h5, h6, p {
   position: static;
 }
 
-.absolute {
+.absolute, .position-absolute, .pos-absolute {
   position: absolute;
 }
 
-.fixed {
+.fixed, .position-fixed, .pos-fixed {
   position: fixed;
 }
 
@@ -2511,43 +2511,43 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .left-5, .position-left-5, .pos-left-5 {
-  left: 5;
+  left: 5px;
 }
 
 .left-10, .position-left-10, .pos-left-10 {
-  left: 10;
+  left: 10px;
 }
 
 .left-15, .position-left-15, .pos-left-15 {
-  left: 15;
+  left: 15px;
 }
 
 .left-20, .position-left-20, .pos-left-20 {
-  left: 20;
+  left: 20px;
 }
 
 .left-25, .position-left-25, .pos-left-25 {
-  left: 25;
+  left: 25px;
 }
 
 .left-30, .position-left-30, .pos-left-30 {
-  left: 30;
+  left: 30px;
 }
 
 .left-40, .position-left-40, .pos-left-40 {
-  left: 40;
+  left: 40px;
 }
 
 .left-50, .position-left-50, .pos-left-50 {
-  left: 50;
+  left: 50px;
 }
 
 .left-60, .position-left-60, .pos-left-60 {
-  left: 60;
+  left: 60px;
 }
 
 .left-100, .position-left-100, .pos-left-100 {
-  left: 100;
+  left: 100px;
 }
 
 .left-initial, .position-left-initial, .pos-left-initial {
@@ -2591,43 +2591,43 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .right-5, .position-right-5, .pos-right-5 {
-  right: 5;
+  right: 5px;
 }
 
 .right-10, .position-right-10, .pos-right-10 {
-  right: 10;
+  right: 10px;
 }
 
 .right-15, .position-right-15, .pos-right-15 {
-  right: 15;
+  right: 15px;
 }
 
 .right-20, .position-right-20, .pos-right-20 {
-  right: 20;
+  right: 20px;
 }
 
 .right-25, .position-right-25, .pos-right-25 {
-  right: 25;
+  right: 25px;
 }
 
 .right-30, .position-right-30, .pos-right-30 {
-  right: 30;
+  right: 30px;
 }
 
 .right-40, .position-right-40, .pos-right-40 {
-  right: 40;
+  right: 40px;
 }
 
 .right-50, .position-right-50, .pos-right-50 {
-  right: 50;
+  right: 50px;
 }
 
 .right-60, .position-right-60, .pos-right-60 {
-  right: 60;
+  right: 60px;
 }
 
 .right-100, .position-right-100, .pos-right-100 {
-  right: 100;
+  right: 100px;
 }
 
 .right-initial, .position-right-initial, .pos-right-initial {
@@ -2671,43 +2671,43 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .top-5, .position-top-5, .pos-top-5 {
-  top: 5;
+  top: 5px;
 }
 
 .top-10, .position-top-10, .pos-top-10 {
-  top: 10;
+  top: 10px;
 }
 
 .top-15, .position-top-15, .pos-top-15 {
-  top: 15;
+  top: 15px;
 }
 
 .top-20, .position-top-20, .pos-top-20 {
-  top: 20;
+  top: 20px;
 }
 
 .top-25, .position-top-25, .pos-top-25 {
-  top: 25;
+  top: 25px;
 }
 
 .top-30, .position-top-30, .pos-top-30 {
-  top: 30;
+  top: 30px;
 }
 
 .top-40, .position-top-40, .pos-top-40 {
-  top: 40;
+  top: 40px;
 }
 
 .top-50, .position-top-50, .pos-top-50 {
-  top: 50;
+  top: 50px;
 }
 
 .top-60, .position-top-60, .pos-top-60 {
-  top: 60;
+  top: 60px;
 }
 
 .top-100, .position-top-100, .pos-top-100 {
-  top: 100;
+  top: 100px;
 }
 
 .top-initial, .position-top-initial, .pos-top-initial {
@@ -2751,43 +2751,43 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .bottom-5, .position-bottom-5, .pos-bottom-5 {
-  bottom: 5;
+  bottom: 5px;
 }
 
 .bottom-10, .position-bottom-10, .pos-bottom-10 {
-  bottom: 10;
+  bottom: 10px;
 }
 
 .bottom-15, .position-bottom-15, .pos-bottom-15 {
-  bottom: 15;
+  bottom: 15px;
 }
 
 .bottom-20, .position-bottom-20, .pos-bottom-20 {
-  bottom: 20;
+  bottom: 20px;
 }
 
 .bottom-25, .position-bottom-25, .pos-bottom-25 {
-  bottom: 25;
+  bottom: 25px;
 }
 
 .bottom-30, .position-bottom-30, .pos-bottom-30 {
-  bottom: 30;
+  bottom: 30px;
 }
 
 .bottom-40, .position-bottom-40, .pos-bottom-40 {
-  bottom: 40;
+  bottom: 40px;
 }
 
 .bottom-50, .position-bottom-50, .pos-bottom-50 {
-  bottom: 50;
+  bottom: 50px;
 }
 
 .bottom-60, .position-bottom-60, .pos-bottom-60 {
-  bottom: 60;
+  bottom: 60px;
 }
 
 .bottom-100, .position-bottom-100, .pos-bottom-100 {
-  bottom: 100;
+  bottom: 100px;
 }
 
 .bottom-initial, .position-bottom-initial, .pos-bottom-initial {
