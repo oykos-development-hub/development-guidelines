@@ -2352,11 +2352,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 /**********     VISIBILITY STYLES    **********/
 
-.hidden {
+.hidden, .visibility-hidden {
   visibility: hidden;
 }
 
-.visible {
+.visible, .visibility-visible {
   visibility: visible;
 }
 //Overflow
@@ -2505,6 +2505,12 @@ h1, h2, h3, h4, h5, h6, p {
 .fixed, .position-fixed, .pos-fixed {
   position: fixed;
 }
+
+.sticky, .position-sticky, .pos-sticky {
+  position: sticky;
+}
+
+
 
 .left-0, .position-left-0, .pos-left-0 {
   left: 0;
