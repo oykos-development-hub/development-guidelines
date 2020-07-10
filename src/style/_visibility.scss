@@ -1,0 +1,585 @@
+// this file contains visibility, overflow, opacity, z-index classes
+
+
+// **********    VISIBILITY ********
+.hidden, .visibility-hidden{
+    visibility: hidden;
+}
+
+.visible, .visibility-visible{
+    visibility: visible;
+}
+
+//***************** OVERFLOW  ***********
+.overflow-hidden, .overflow-h{
+    overflow: hidden;
+}
+
+
+.overflow-visible, .overflow-v{
+    overflow: visible;
+}
+
+.overflow-scroll, .overflow-s{
+overflow: scroll;
+}
+.overflow-auto, .overflow-a{
+    overflow: auto;
+}
+
+.overflow-x-hidden, .overflow-x-h {
+    overflow-x: hidden;
+  }
+  
+.overflow-x-auto, .overflow-x-a {
+    overflow-x: auto;
+  }
+  
+.overflow-x-scroll, .overflow-x-s {
+    overflow-x: scroll;
+  }
+  
+.overflow-y-hidden, .overflow-y-h {
+    overflow-y: hidden;
+  }
+  
+.overflow-y-auto, .overflow-y-a {
+    overflow-y: auto;
+  }
+  
+.overflow-y-scroll, .overflow-y-s {
+    overflow-y: scroll;
+  }
+
+//vrijednosti:
+
+.overflow-0{
+    overflow: 0;
+}
+
+.overflow-10{
+    overflow: 10px;
+}
+
+.overflow-20{
+    overflow: 20px;
+}
+
+.overflow-30{
+    overflow: 30px;
+}
+
+.overflow-40{
+    overflow: 40px;
+}
+
+.overflow-50{
+    overflow: 50px;
+}
+
+
+.overflow-60{
+    overflow: 60px;
+}
+
+.overflow-70{
+    overflow: 70px;
+}
+
+.overflow-80{
+    overflow: 80px;
+}
+
+.overflow-90{
+    overflow: 90px;
+}
+
+.overflow-100{
+    overflow: 100px;
+}
+//overflow-x
+
+.overflow-x-0{
+    overflow-x: 0;
+}
+
+.overflow-x-10{
+    overflow-x: 10px;
+}
+
+.overflow-x-20{
+    overflow-x: 20px;
+}
+
+.overflow-x-30{
+    overflow-x: 30px;
+}
+
+.overflow-x-40{
+    overflow-x: 40px;
+}
+
+.overflow-x-50{
+    overflow-x: 50px;
+}
+
+
+.overflow-x-60{
+    overflow-x: 60px;
+}
+
+.overflow-x-70{
+    overflow-x: 70px;
+}
+
+.overflow-x-80{
+    overflow-x: 80px;
+}
+
+.overflow-x-90{
+    overflow-x: 90px;
+}
+
+.overflow-x-100{
+    overflow-x: 100px;
+}
+
+//overflow-y
+
+.overflow-y-0{
+    overflow-y: 0;
+}
+
+.overflow-y-10{
+    overflow-y: 10px;
+}
+
+.overflow-y-20{
+    overflow-y: 20px;
+}
+
+.overflow-y-30{
+    overflow-y: 30px;
+}
+
+.overflow-y-40{
+    overflow-y: 40px;
+}
+
+.overflow-y-50{
+    overflow-y: 50px;
+}
+
+
+.overflow-y-60{
+    overflow-y: 60px;
+}
+
+.overflow-y-70{
+    overflow-y: 70px;
+}
+
+.overflow-y-80{
+    overflow-y: 80px;
+}
+
+.overflow-y-90{
+    overflow-y: 90px;
+}
+
+.overflow-y-100{
+    overflow-y: 100px;
+}
+
+
+
+
+
+
+//****************** OPACITY   *******************
+
+.opacity-0, .opacity-00, .opacity-0perc, .opacity-0-perc {
+    opacity: 0;
+  }
+
+.opacity-10, .opacity-01, .opacity-10perc, .opacity-10-perc {
+     opacity: 0.1 ;
+}
+
+.opacity-20, .opacity-02, .opacity-20perc, .opacity-20-perc {
+  opacity: 0.2;
+}
+
+.opacity-30, .opacity-03, .opacity-30perc, .opacity-30-perc {
+    opacity: 0.3;
+  }
+  .opacity-40, .opacity-04, .opacity-40perc, .opacity-40-perc {
+    opacity: 0.4;
+  }
+  .opacity-50, .opacity-05, .opacity-50perc, .opacity-50-perc {
+    opacity: 0.5;
+  }
+
+  .opacity-60, .opacity-06, .opacity-60perc, .opacity-60-perc {
+    opacity: 0.6;
+  }
+
+  .opacity-70, .opacity-07, .opacity-70perc, .opacity-70-perc {
+    opacity: 0.7;
+  }
+
+  .opacity-80, .opacity-08, .opacity-80perc, .opacity-80-perc {
+    opacity: 0.8;
+  }
+
+  .opacity-90, .opacity-09, .opacity-90perc, .opacity-90-perc {
+    opacity: 0.9;
+  }
+
+  .opacity-100, .opacity-100perc, .opacity-100-perc {
+    opacity: 1;
+  }
+
+
+
+
+// Z-INDEX
+.z-min-1, .z-index-min-1{
+    z-index: -1;
+
+}
+.z-0, .z-index-0{
+    z-index: 0;
+}
+
+.z-1, .z-index-1{
+    z-index: 1;
+}
+
+.z-2, .z-index-2{
+    z-index: 2;
+}
+
+.z-3, .z-index-3{
+    z-index: 3;
+}
+
+.z-4, .z-index-4{
+    z-index: 4;
+}
+
+.z-5, .z-index-5{
+    z-index: 5;
+}
+.z-9, .z-index-9{
+    z-index: 9;
+}
+
+.z-99, .z-index-99{
+    z-index: 99;
+}
+
+.z-999, .z-index-999{
+    z-index: 99;
+}
+.z-9999, .z-index-9999{
+    z-index: 9999;
+}
+
+.z-999999, .z-index-999999{
+    z-index: 999999;
+}
+
+
+// ****************************************************************************************************************************
+
+// IMPORTANT NOTICE CLASSES
+
+.z-min-1-i, .z-index-min-1-i{
+    z-index: -1 !important;
+
+}
+.z-0-i, .z-index-0-i{
+    z-index: 0 !important;
+}
+
+.z-1-i, .z-index-1-i{
+    z-index: 1 !important;
+}
+
+.z-2-i, .z-index-2-i{
+    z-index: 2 !important;
+}
+
+.z-3-i, .z-index-3-i{
+    z-index: 3 !important;
+}
+
+.z-4-i, .z-index-4-i{
+    z-index: 4 !important;
+}
+
+.z-5-i, .z-index-5-i{
+    z-index: 5 !important;
+}
+.z-9-i, .z-index-9-i{
+    z-index: 9 !important;
+}
+
+.z-99-i, .z-index-99-i{
+    z-index: 99 !important;
+}
+
+.z-999-i, .z-index-999-i{
+    z-index: 99 !important;
+}
+.z-9999-i, .z-index-9999-i{
+    z-index: 9999 !important;
+}
+
+.z-999999-i, .z-index-999999-i{
+    z-index: 999999 !important;
+}
+
+
+
+//overflow-i
+
+.overflow-hidden-i, .overflow-h-i{
+    overflow: hidden !important;
+}
+
+
+.overflow-visible-i, .overflow-v-i{
+    overflow: visible !important;
+}
+
+.overflow-scroll-i, .overflow-s-i{
+overflow: scroll !important;
+}
+.overflow-auto-i, .overflow-a-i{
+    overflow: auto !important;
+}
+
+.overflow-x-hidden-i, .overflow-x-h-i {
+    overflow-x: hidden !important;
+  }
+  
+.overflow-x-auto-i, .overflow-x-a-i {
+    overflow-x: auto !important;
+  }
+  
+.overflow-x-scroll-i, .overflow-x-s-i {
+    overflow-x: scroll !important;
+  }
+  
+.overflow-y-hidden-i, .overflow-y-h-i {
+    overflow-y: hidden !important;
+  }
+  
+.overflow-y-auto-i, .overflow-y-a-i {
+    overflow-y: auto !important;
+  }
+  
+.overflow-y-scroll-i, .overflow-y-s-i {
+    overflow-y: scroll !important;
+  }
+
+//vrijednosti:
+
+.overflow-0-i{
+    overflow: 0 !important;
+}
+
+.overflow-10-i{
+    overflow: 10px !important;
+}
+
+.overflow-20-i{
+    overflow: 20px !important;
+}
+
+.overflow-30-i{
+    overflow: 30px !important;
+}
+
+.overflow-40-i{
+    overflow: 40px !important;
+}
+
+.overflow-50-i{
+    overflow: 50px !important;
+}
+
+
+.overflow-60-i{
+    overflow: 60px !important;
+}
+
+.overflow-70-i{
+    overflow: 70px !important;
+}
+
+.overflow-80-i{
+    overflow: 80px !important;
+}
+
+.overflow-90-i{
+    overflow: 90px !important;
+}
+
+.overflow-100-i{
+    overflow: 100px !important;
+}
+//overflow-x
+
+.overflow-x-0-i{
+    overflow-x: 0 !important;
+}
+
+.overflow-x-10-i{
+    overflow-x: 10px !important;
+}
+
+.overflow-x-20-i{
+    overflow-x: 20px !important;
+}
+
+.overflow-x-30-i{
+    overflow-x: 30px !important;
+}
+
+.overflow-x-40-i{
+    overflow-x: 40px !important;
+}
+
+.overflow-x-50-i{
+    overflow-x: 50px !important;
+}
+
+
+.overflow-x-60-i{
+    overflow-x: 60px !important;
+}
+
+.overflow-x-70-i{
+    overflow-x: 70px !important;
+}
+
+.overflow-x-80-i{
+    overflow-x: 80px !important;
+}
+
+.overflow-x-90-i{
+    overflow-x: 90px !important;
+}
+
+.overflow-x-100-i{
+    overflow-x: 100px !important;
+}
+
+//overflow-y
+
+.overflow-y-0-i{
+    overflow-y: 0 !important;
+}
+
+.overflow-y-10-i{
+    overflow-y: 10px !important;
+}
+
+.overflow-y-20-i{
+    overflow-y: 20px !important;
+}
+
+.overflow-y-30-i{
+    overflow-y: 30px !important;
+}
+
+.overflow-y-40-i{
+    overflow-y: 40px !important;
+}
+
+.overflow-y-50-i{
+    overflow-y: 50px !important;
+}
+
+
+.overflow-y-60-i{
+    overflow-y: 60px !important;
+}
+
+.overflow-y-70-i{
+    overflow-y: 70px !important;
+}
+
+.overflow-y-80-i{
+    overflow-y: 80px !important;
+}
+
+.overflow-y-90-i{
+    overflow-y: 90px !important;
+}
+
+.overflow-y-100-i{
+    overflow-y: 100px !important;
+}
+
+
+
+
+
+
+
+//visibility-i
+.hidden-i, .visibility-hidden-i{
+    visibility: hidden !important;
+}
+
+.visible-i, .visibility-visible-i{
+    visibility: visible !important;
+}
+
+//opacity-i
+.opacity-0-i, .opacity-00-i, .opacity-0perc-i, .opacity-0-perc-i {
+    opacity: 0 !important;
+  }
+
+.opacity-10-i, .opacity-01-i, .opacity-10perc-i, .opacity-10-perc-i {
+     opacity: 0.1 !important;
+}
+
+.opacity-20-i, .opacity-02-i, .opacity-20perc-i, .opacity-20-perc-i {
+  opacity: 0.2 !important;
+}
+
+.opacity-30-i, .opacity-03-i, .opacity-30perc-i, .opacity-30-perc-i {
+    opacity: 0.3 !important;
+  }
+  .opacity-40-i, .opacity-04-i, .opacity-40perc-i, .opacity-40-perc-i {
+    opacity: 0.4 !important;
+  }
+  .opacity-50-i, .opacity-05-i, .opacity-50perc-i, .opacity-50-perc-i {
+    opacity: 0.5 !important;
+  }
+
+  .opacity-60-i, .opacity-06-i, .opacity-60perc-i, .opacity-60-perc-i {
+    opacity: 0.6 !important;
+  }
+
+  .opacity-70-i, .opacity-07-i, .opacity-70perc-i, .opacity-70-perc-i {
+    opacity: 0.7 !important;
+  }
+
+  .opacity-80-i, .opacity-08-i, .opacity-80perc-i, .opacity-80-perc-i {
+    opacity: 0.8 !important;
+  }
+
+  .opacity-90-i, .opacity-09-i, .opacity-90perc-i, .opacity-90-perc-i {
+    opacity: 0.9 !important;
+  }
+
+  .opacity-100-i, .opacity-100perc-i, .opacity-100-perc-i {
+    opacity: 1 !important;
+  }
+
