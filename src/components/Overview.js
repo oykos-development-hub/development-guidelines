@@ -75,7 +75,7 @@ export default class App extends React.Component {
                         <div className="flex center margin-20"
                              style={{backgroundColor: "#54ca54"}}>
                             <div className="column center grow-1 margin-40 padding-v-15 padding-h-15" style={{backgroundColor: "#bbb4b4"}}>
-                                <span className="column center align-self-stretch border-1">
+                                <span className="column center padding-v-15 padding-h-15 align-self-stretch border-1">
                                     <i>.margin-40</i>
                                     <i>.padding-v-15</i>
                                     <i>.padding-h-15</i>
@@ -86,7 +86,7 @@ export default class App extends React.Component {
                         <div className="flex center margin-20"
                              style={{backgroundColor: "#54ca54"}}>
                             <div className="column center grow-1 margin-v-60 margin-l-20 margin-r-20 padding-v-50 padding-h-15" style={{backgroundColor: "#bbb4b4"}}>
-                                <span className="column center align-self-stretch border-1">
+                                <span className="column center padding-v-15 padding-h-15 align-self-stretch border-1">
                                     <i>.margin-v-60</i>
                                     <i>.margin-left-20</i>
                                     <i>.margin-r-20</i>
