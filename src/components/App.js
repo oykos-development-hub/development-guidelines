@@ -10,10 +10,8 @@ export default class App extends React.Component {
     }
 
     render() {
-        return (
-        <div id="App">
+        return (<div id="App">
             <Overview />
-        </div>
-        );
+        </div>);
     }
 }
