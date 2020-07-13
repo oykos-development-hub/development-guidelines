@@ -20,6 +20,10 @@
   background-size: 100%;
 }
 
+.background-size-120-perc, .background-size-120perc, .bg-size-120perc, .bg-size-120-perc {
+  background-size: 120% 120%;
+}
+
 .background-size-cover {
   background-size: cover;
 }
@@ -80,4 +84,27 @@
 .bg-position-50-perc, .bg-pos-50-perc, .bg-position-50perc, .bg-pos-50perc {
   background-position: 50% 50%;
 }
-  
+
+.clean-background {
+  background-color: #ffffffee;
+}
+
+.lightened-background {
+  background-color: #e3e3e377;
+}
+
+.dimmed-background {
+  background-color: #33333388;
+}
+
+.shadow-medium {
+  box-shadow: 0 0 30px -5px #333;
+}
+
+.shadow-b-light {
+  box-shadow: 0 10px 20px -4px #333;
+}
+
+.shadow-b-r-light {
+  box-shadow: 10px 10px 30px -17px #333;
+}
