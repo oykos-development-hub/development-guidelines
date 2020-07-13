@@ -464,7 +464,7 @@ export default class App extends React.Component {
                     </div>
 
                     <div id="right" className="column align-stretch justify-start padding-h-20 padding-v-30 grow-1">
-                        <div className="flex center margin-20 w-300 h-300 border-1 relative"
+                        <div className="flex flex-start margin-20 w-300 h-300 border-1 relative"
                             style={{ backgroundColor: "#54ca54" }}>
                             <i>z-index-min-1</i>
                             <div className="column center border-1 w-500 absolute top-left-0 z-min-1"
@@ -474,7 +474,7 @@ export default class App extends React.Component {
                             </div>
                         </div>
 
-                        <div className="flex center margin-20 w-300 h-300 border-1 relative"
+                        <div className="flex flex-start margin-20 w-300 h-300 border-1 relative"
                             style={{ backgroundColor: "#54ca54" }}>
                             <div className="column center border-1 w-500 absolute top-left-0 z-1"
                                 style={{ backgroundColor: "#bbb4b4" }}>
