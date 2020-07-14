@@ -27,6 +27,8 @@ $info-1: #31b3e5;
 $info-2: #00c47b;
 $info-3: #74b560;
 
+
+
 // Classes for handling background color
 .bg-theme-main-2 {
   background-color: $theme-main-2;
@@ -38,11 +40,13 @@ $info-3: #74b560;
 }
 
 // Classes for handling font color
+
 .dark-3 {
   color: $dark-3;
 }
 
 // Classes for handling border color
+
 .border-bottom-light-5 {
   border-bottom-color: $light-5;
 }
@@ -50,3 +54,1369 @@ $info-3: #74b560;
 .border-light-5-i {
   border-color: $light-5 !important;
 }
+
+
+//*********** classes for every color in the list above:  ***************8
+
+.bg-theme-main-1, .background-theme-main-1 {
+  background-color: $theme-main-1;
+}
+
+.bg-theme-main-2, .background-theme-main-2 {
+  background-color: $theme-main-2;
+}
+
+.bg-theme-main-3, .background-theme-main-3 {
+  background-color: $theme-main-3;
+}
+.bg-theme-main-4, .background-theme-main-4 {
+  background-color: $theme-main-4;
+}
+.bg-theme-main-5, .background-theme-main-5 {
+  background-color: $theme-main-5;
+}
+
+.bg-theme-light-2, .background-theme-light-2 {
+  background-color: $theme-light-2;
+}
+
+// Colors used for background:
+.bg-dark-3, .background-dark-3{
+  background-color: $dark-3;
+}
+
+.bg-dark-2, .background-dark-2{
+  background-color: $dark-2;
+}
+
+.bg-dark-1, .background-dark-1{
+  background-color: $dark-1;
+}
+
+
+.bg-light-5, .background-light-5{
+  background-color: $light-5;
+}
+.bg-light-4, .background-light-4{
+  background-color: $light-4;
+}
+.bg-light-3, .background-light-3{
+  background-color: $light-3;
+}
+.bg-light-2, .background-light-2{
+  background-color: $light-2;
+}
+
+.bg-light-1, .background-light-1{
+  background-color: $light-1;
+}
+
+// Colors for specific use cases
+
+.bg-important-1, .background-important-1{
+  background-color: $important-1;
+}
+
+.bg-important-2, .background-important-2{
+  background-color: $important-2;
+}
+
+.bg-important-3, .background-important-3{
+  background-color: $important-3;
+}
+
+.bg-info-1, .background-info-1{
+  background-color: $info-1;
+}
+
+.bg-info-2, .background-info-2{
+  background-color: $info-2;
+}
+
+.bg-info-3, .background-info-3{
+  background-color: $info-3;
+}
+
+
+//***********Important notice classes for every color in the list above:  ***************
+
+.bg-theme-main-1-i, .background-theme-main-1-i {
+  background-color: $theme-main-1 !important;
+}
+
+.bg-theme-main-2-i, .background-theme-main-2-i {
+  background-color: $theme-main-2 !important;
+}
+
+.bg-theme-main-3-i, .background-theme-main-3-i {
+  background-color: $theme-main-3 !important;
+}
+.bg-theme-main-4-i, .background-theme-main-4-i {
+  background-color: $theme-main-4 !important;
+}
+.bg-theme-main-5-i, .background-theme-main-5-i{
+  background-color: $theme-main-5 !important;
+}
+
+.bg-theme-light-2-i, .background-theme-light-2-i {
+  background-color: $theme-light-2 !important;
+}
+
+// Colors used for background:
+.bg-dark-3-i, .background-dark-3-i{
+  background-color: $dark-3 !important;
+}
+
+.bg-dark-2-i, .background-dark-2-i{
+  background-color: $dark-2 !important;
+}
+
+.bg-dark-1-i, .background-dark-1-i{
+  background-color: $dark-1 !important;
+}
+
+
+.bg-light-5-i, .background-light-5-i{
+  background-color: $light-5 !important;
+}
+.bg-light-4-i, .background-light-4-i{
+  background-color: $light-4 !important;
+}
+.bg-light-3-i, .background-light-3-i{
+  background-color: $light-3 !important;
+}
+.bg-light-2-i, .background-light-2-i{
+  background-color: $light-2 !important;
+}
+
+.bg-light-1-i, .background-light-1-i{
+  background-color: $light-1 !important;
+}
+
+// Colors for specific use cases
+
+.bg-important-1-i, .background-important-1-i{
+  background-color: $important-1 !important;
+}
+
+.bg-important-2-i, .background-important-2-i{
+  background-color: $important-2 !important;
+}
+
+.bg-important-3-i, .background-important-3-i{
+  background-color: $important-3 !important;
+}
+
+.bg-info-1-i, .background-info-1-i{
+  background-color: $info-1 !important;
+}
+
+.bg-info-2-i, .background-info-2-i{
+  background-color: $info-2 !important;
+}
+
+.bg-info-3-i, .background-info-3-i{
+  background-color: $info-3 !important;
+}
+
+
+
+/************************** CLASSES FOR EVERY COLOR ***************************/
+
+// Theme colors
+.theme-main-1, .color-theme-main-1{
+color:$theme-main-1;
+
+}
+.theme-main-2, .color-theme-main-2{
+  color:$theme-main-2;
+
+}
+.theme-main-3, .color-theme-main-3{
+  color:$theme-main-3;
+
+}
+
+.theme-main-4, .color-theme-main-4{
+  color:$theme-main-4;
+}
+.theme-main-5, .color-theme-main-5{
+  color:$theme-main-5;
+}
+
+.theme-light-2, .color-theme-light-2{
+color: $theme-light-2;
+}
+
+// Colors used for background
+.dark-3, .color-dark-3{
+color: $dark-3;
+}
+
+.dark-2, .color-dark-2{
+color: $dark-2;
+}
+
+.dark-1, .color-dark-1{
+color: $dark-1;
+}
+
+.light-1, .color-light-1{
+color: $light-1;
+}
+.light-2, .color-light-2{
+  color: $light-2;
+}
+.light-3, .color-light-3{
+  color: $light-3;
+}
+.light-4, .color-light-4{
+  color: $light-4;
+}
+.light-5, .color-light-5{
+  color: $light-5;
+}
+
+// Colors for specific use cases
+.important-1, .color-important-1{
+color: $important-1;
+}
+.important-2, .color-important-2{
+  color: $important-2;
+}
+.important-3, .color-important-3{
+  color: $important-3;
+}
+
+.info-1, .color-info-1{
+color: $info-1;
+}
+.info-2, .color-info-1{
+  color: $info-2;
+}
+.info-3, .color-info-1{
+  color: $info-3;
+}
+
+/******************************* important notice classes ***************************************/
+
+// Theme colors
+.theme-main-1-i, .color-theme-main-1-i{
+  color:$theme-main-1 !important;
+  
+  }
+  .theme-main-2-i, .color-theme-main-2-i{
+    color:$theme-main-2 !important;
+  
+  }
+  .theme-main-3-i, .color-theme-main-3-i{
+    color:$theme-main-3 !important;
+  
+  }
+  
+  .theme-main-4-i, .color-theme-main-4-i{
+    color:$theme-main-4 !important;
+  }
+  .theme-main-5-i, .color-theme-main-5-i{
+    color:$theme-main-5 !important;
+  }
+  
+  .theme-light-2-i, .color-theme-light-2-i{
+  color: $theme-light-2 !important;
+  }
+  
+  // Colors used for background
+  .dark-3-i, .color-dark-3-i{
+  color: $dark-3 !important;
+  }
+  
+  .dark-2-i, .color-dark-2-i{
+  color: $dark-2 !important;
+  }
+  
+  .dark-1-i, .color-dark-1-i{
+  color: $dark-1 !important;
+  }
+  
+  .light-1-i, .color-light-1-i{
+  color: $light-1 !important;
+  }
+  .light-2-i, .color-light-2-i{
+    color: $light-2 !important;
+  }
+  .light-3-i, .color-light-3-i{
+    color: $light-3 !important;
+  }
+  .light-4-i, .color-light-4-i{
+    color: $light-4 !important;
+  }
+  .light-5-i, .color-light-5-i{
+    color: $light-5 !important;
+  }
+  
+  // Colors for specific use cases
+  .important-1-i, .color-important-1-i{
+  color: $important-1 !important;
+  }
+  .important-2-i, .color-important-2-i{
+    color: $important-2 !important;
+  }
+  .important-3-i, .color-important-3-i{
+    color: $important-3 !important;
+  }
+  
+  .info-1-i, .color-info-1-i{
+  color: $info-1 !important;
+  }
+  .info-2-i, .color-info-1-i{
+    color: $info-2 !important;
+  }
+  .info-3, .color-info-1-i{
+    color: $info-3 !important;
+  }
+
+
+/************* BORDER COLORS FOR ALL FOUR SIDES *****************/
+
+.border-theme-main-1{
+  border-color: $theme-main-1;
+}
+
+.border-theme-main-2{
+  border-color: $theme-main-2;
+}
+
+.border-theme-main-3{
+  border-color: $theme-main-3;
+}
+
+.border-theme-main-4{
+  border-color: $theme-main-4;
+}
+
+.border-theme-main-5{
+  border-color: $theme-main-5;
+}
+
+.border-theme-light-2{
+  border-color: $theme-light-2;
+}
+
+.border-dark-3{
+  border-color: $dark-3;
+}
+.border-dark-2{
+  border-color: $dark-2;
+}
+.border-dark-1{
+  border-color: $dark-1;
+}
+
+.border-light-1{
+  border-color: $light-1;
+}
+.border-light-2{
+  border-color: $light-2;
+}
+.border-light-3{
+  border-color: $light-3;
+}
+.border-light-4{
+  border-color: $light-4;
+}
+.border-light-5{
+  border-color: $light-5;
+}
+
+.border-important-1{
+  border-color: $important-1;
+}
+
+.border-important-2{
+  border-color: $important-2;
+}
+.border-important-3{
+  border-color: $important-3;
+}
+
+.border-info-1{
+  border-color: $info-1;
+}
+.border-info-2{
+  border-color: $info-2;
+}
+.border-info-3{
+  border-color: $info-3;
+}
+
+/****** HORIZONTAL ************/
+
+.border-horizontal-theme-main-1, .border-h-theme-main-1 {
+  border-left-color: $theme-main-1;
+  border-right-color: $theme-main-1;
+}
+.border-horizontal-theme-main-2, .border-h-theme-main-2 {
+  border-left-color: $theme-main-2;
+  border-right-color: $theme-main-2;
+}
+.border-horizontal-theme-main-3, .border-h-theme-main-3 {
+  border-left-color: $theme-main-3;
+  border-right-color: $theme-main-3;
+}
+.border-horizontal-theme-main-4, .border-h-theme-main-4 {
+  border-left-color: $theme-main-4;
+  border-right-color: $theme-main-4;
+}
+.border-horizontal-theme-main-5, .border-h-theme-main-5 {
+  border-left-color: $theme-main-5;
+  border-right-color: $theme-main-5;
+}
+.border-horizontal-theme-light-2, .border-h-theme-light-2 {
+  border-left-color: $theme-light-2;
+  border-right-color: $theme-light-2;
+}
+
+.border-horizontal-dark-3, .border-h-dark-3{
+  border-left-color:$dark-3;
+  border-right-color:$dark-3;
+}
+.border-horizontal-dark-2, .border-h-dark-2{
+  border-left-color:$dark-2;
+  border-right-color:$dark-2;
+}
+.border-horizontal-dark-1, .border-h-dark-1{
+  border-left-color:$dark-1;
+  border-right-color:$dark-1;
+}
+.border-horizontal-light-1, .border-h-light-1{
+  border-left-color:$light-1;
+  border-right-color:$light-1;
+}
+.border-horizontal-light-2, .border-h-light-2{
+  border-left-color:$light-2;
+  border-right-color:$light-2;
+}
+.border-horizontal-light-3, .border-h-light-3{
+  border-left-color:$light-3;
+  border-right-color:$light-3;
+}
+.border-horizontal-light-4, .border-h-light-4{
+  border-left-color: $light-4;;
+  border-right-color:$light-4;
+}
+.border-horizontal-light-5, .border-h-light-5{
+  border-left-color:$light-5;
+  border-right-color:$light-5;
+}
+/**** IMPORTANT AND INFO ****/
+.border-horizontal-important-1, .border-h-important-1 {
+  border-left-color: $important-1;
+  border-right-color: $important-1;
+}
+.border-horizontal-important-2, .border-h-important-2 {
+  border-left-color: $important-2;
+  border-right-color: $important-2;
+}
+.border-horizontal-important-3, .border-h-important-3 {
+  border-left-color: $important-3;
+  border-right-color: $important-3;
+}
+.border-horizontal-info-1, .border-h-info-1 {
+  border-left-color:$info-1;
+  border-right-color:$info-1;
+}
+.border-horizontal-info-2, .border-h-info-2 {
+  border-left-color:$info-2;
+  border-right-color:$info-2;
+}
+
+.border-horizontal-info-3, .border-h-info-3 {
+  border-left-color:$info-3;
+  border-right-color:$info-3;
+}
+/******************* VERTICAL ***************************/
+.border-vertical-theme-main-1, .border-v-theme-main-1 {
+  border-top-color: $theme-main-1;
+  border-bottom-color: $theme-main-1;
+}
+.border-vertical-theme-main-2, .border-v-theme-main-2 {
+  border-top-color: $theme-main-2;
+  border-bottom-color: $theme-main-2;
+}
+.border-vertical-theme-main-3, .border-v-theme-main-3 {
+  border-top-color: $theme-main-3;
+  border-bottom-color: $theme-main-3;
+}
+.border-vertical-theme-main-4, .border-v-theme-main-4 {
+  border-top-color: $theme-main-4;
+  border-bottom-color: $theme-main-4;
+}
+.border-vertical-theme-main-5, .border-v-theme-main-5 {
+  border-top-color: $theme-main-5;
+  border-bottom-color: $theme-main-5;
+}
+.border-vertical-theme-light-2, .border-v-theme-light-2 {
+  border-top-color: $theme-light-2;
+  border-bottom-color: $theme-light-2;
+}
+
+.border-vertical-dark-1, .border-v-dark-1 {
+  border-top-color: $dark-1;
+  border-bottom-color: $dark-1;
+}
+.border-vertical-dark-2, .border-v-dark-2 {
+  border-top-color: $dark-2;
+  border-bottom-color: $dark-2;
+}
+.border-vertical-dark-3, .border-v-dark-3 {
+  border-top-color: $dark-1;
+  border-bottom-color: $dark-1;
+}
+
+.border-vertical-light-1, .border-v-light-1 {
+  border-top-color: $light-1;
+  border-bottom-color: $light-1;
+}
+.border-vertical-light-2, .border-v-light-2 {
+  border-top-color: $light-2;
+  border-bottom-color: $light-2;
+}
+.border-vertical-light-3, .border-v-light-3 {
+  border-top-color: $light-3;
+  border-bottom-color: $light-3;
+}
+.border-vertical-light-4, .border-v-light-4 {
+  border-top-color: $light-4;
+  border-bottom-color: $light-4;
+}
+.border-vertical-light-5, .border-v-light-5 {
+  border-top-color: $light-5;
+  border-bottom-color: $light-5;
+}
+
+.border-vertical-important-1, .border-v-important-1 {
+  border-top-color: $important-1;
+  border-bottom-color: $important-1;
+}
+.border-vertical-important-2, .border-v-important-2 {
+  border-top-color: $important-2;
+  border-bottom-color: $important-2;
+}
+.border-vertical-important-3, .border-v-important-3 {
+  border-top-color: $important-3;
+  border-bottom-color: $important-3;
+}
+.border-vertical-info-1, .border-v-info-1 {
+  border-top-color:$info-1;
+  border-bottom-color:$info-1;
+}
+.border-vertical-info-2, .border-v-info-2 {
+  border-top-color:$info-2;
+  border-bottom-color:$info-2;
+}
+
+.border-vertical-info-3, .border-v-info-3 {
+  border-top-color:$info-3;
+  border-bottom-color:$info-3;
+}
+
+
+//TOP
+.border-top-theme-main-1, .border-t-theme-main-1{
+  border-color: $theme-main-1;
+}
+.border-top-theme-main-2, .border-t-theme-main-2{
+  border-color: $theme-main-2;
+}
+.border-top-theme-main-3, .border-t-theme-main-3{
+  border-color: $theme-main-3;
+}
+.border-top-theme-main-4, .border-t-theme-main-4{
+  border-color: $theme-main-4;
+}
+.border-top-theme-main-5, .border-t-theme-main-5{
+  border-color: $theme-main-5;
+}
+.border-top-theme-light-2, .border-t-theme-light-2{
+  border-color: $theme-main-2;
+}
+/*** dark and light ****/
+.border-top-dark-3, .border-t-dark-3{
+  border-color: $dark-3;
+}
+.border-top-dark-2, .border-t-dark-2{
+  border-color: $dark-2;
+}
+.border-top-dark-1, .border-t-dark-1{
+  border-color: $dark-1;
+}
+.border-top-light-1, .border-t-light-1{
+  border-color: $light-1;
+}
+.border-top-light-2, .border-t-light-2{
+  border-color: $light-2;
+}
+.border-top-light-3, .border-t-light-3{
+  border-color: $light-3;
+}
+.border-top-light-4, .border-t-light-4{
+  border-color: $light-4;
+}
+.border-top-light-5, .border-t-light-5{
+  border-color: $light-5;
+}
+/**** IMPORTANT AND INFO ****/
+.border-top-important-1, .border-t-important-1{
+  border-color: $important-1;
+}
+.border-top-important-2, .border-t-important-2{
+  border-color: $important-2;
+}
+.border-top-important-3, .border-t-important-3{
+  border-color: $important-3;
+}
+.border-top-info-1, .border-t-info-1{
+  border-color: $info-1;
+}
+.border-top-info-2, .border-t-info-2{
+  border-color: $info-2;
+}
+.border-top-info-3, .border-t-info-3{
+  border-color: $info-3;
+}
+
+
+/*** BOTTOM ***/
+
+.border-bottom-theme-main-1, .border-b-theme-main-1{
+  border-color: $theme-main-1;
+}
+.border-bottom-theme-main-2, .border-b-theme-main-2{
+  border-color: $theme-main-2;
+}
+.border-bottom-theme-main-3, .border-b-theme-main-3{
+  border-color: $theme-main-3;
+}
+.border-bottom-theme-main-4, .border-b-theme-main-4{
+  border-color: $theme-main-4;
+}
+.border-bottom-theme-main-5, .border-b-theme-main-5{
+  border-color: $theme-main-5;
+}
+.border-bottom-theme-light-2, .border-b-theme-light-2{
+  border-color: $theme-main-2;
+}
+/*** dark and light ****/
+.border-bottom-dark-3, .border-b-dark-3{
+  border-color: $dark-3;
+}
+.border-bottom-dark-2, .border-b-dark-2{
+  border-color: $dark-2;
+}
+.border-bottom-dark-1, .border-b-dark-1{
+  border-color: $dark-1;
+}
+.border-bottom-light-1, .border-b-light-1{
+  border-color: $light-1;
+}
+.border-bottom-light-2, .border-b-light-2{
+  border-color: $light-2;
+}
+.border-bottom-light-3, .border-b-light-3{
+  border-color: $light-3;
+}
+.border-bottom-light-4, .border-b-light-4{
+  border-color: $light-4;
+}
+.border-bottom-light-5, .border-b-light-5{
+  border-color: $light-5;
+}
+/*** IMPORTANT CASES ****/
+.border-bottom-important-1, .border-bottom-i-1{
+  border-color: $important-1;
+}
+.border-bottom-important-2, .border-bottom-i-2{
+  border-color: $important-2;
+}
+.border-bottom-important-3, .border-bottom-i-3{
+  border-color: $important-3;
+}
+.border-bottom-info-1, .border-b-info-1{
+  border-color: $important-1;
+}
+.border-bottom-info-2, .border-b-info-2{
+  border-color: $important-2;
+}
+.border-bottom-info-3, .border-b-info-3{
+  border-color: $important-3;
+}
+
+//RIGHT
+.border-right-theme-main-1, .border-r-theme-main-1 {
+  border-right-color: $theme-main-1;
+}
+
+.border-right-theme-main-2, .border-r-theme-main-2{
+  border-right-color: $theme-main-2;
+}
+
+.border-right-theme-main-3, .border-r-theme-main-3{
+  border-right-color: $theme-main-3;
+}
+
+.border-right-theme-main-4, .border-r-theme-main-4{
+  border-right-color: $theme-main-4;
+}
+
+.border-right-theme-main-5, .border-r-theme-main-5{
+  border-right-color: $theme-main-5;
+}
+
+.border-right-theme-light-2, .border-r-theme-light-2{
+  border-right-color: $theme-light-2;
+}
+
+.border-right-dark-3, .border-r-theme-dark-3{
+  border-right-color: $dark-3;
+}
+.border-right-dark-2, .border-r-dark-2{
+  border-right-color: $dark-2;
+}
+.border-right-dark-1, .border-r-dark-1{
+  border-right-color: $dark-1;
+}
+
+.border-right-light-1, .border-r-light-1{
+  border-right-color: $light-1;
+}
+.border-right-light-2, .border-r-light-2{
+  border-right-color: $light-2;
+}
+.border-right-light-3, .border-r-light-3{
+  border-right-color: $light-3;
+}
+.border-right-light-4, .border-r-light-4{
+  border-right-color: $light-4;
+}
+.border-right-light-5, .border-r-light-5{
+  border-right-color: $light-5;
+}
+
+.border-right-important-1, .border-r-important-1{
+  border-right-color: $important-1;
+}
+
+.border-right-important-2, .border-r-important-2{
+  border-right-color: $important-2;
+}
+.border-right-important-3, .border-r-important-3{
+  border-right-color: $important-3;
+}
+
+.border-right-info-1, .border-r-info-1{
+  border-right-color: $info-1;
+}
+.border-right-info-2, .border-r-info-2{
+  border-right-color: $info-2;
+}
+.border-right-info-3, .border-r-info-3{
+  border-right-color: $info-3;
+}
+
+
+
+//LEFT
+.border-left-theme-main-1, .border-l-theme-main-1 {
+  border-left-color: $theme-main-1;
+}
+
+.border-left-theme-main-2, .border-l-theme-main-2{
+  border-left-color: $theme-main-2;
+}
+
+.border-left-theme-main-3, .border-l-theme-main-3{
+  border-left-color: $theme-main-3;
+}
+
+.border-left-theme-main-4, .border-l-theme-main-4{
+  border-left-color: $theme-main-4;
+}
+
+.border-left-theme-main-5, .border-l-theme-main-5{
+  border-left-color: $theme-main-5;
+}
+
+.border-left-theme-light-2, .border-l-theme-light-2{
+  border-left-color: $theme-light-2;
+}
+
+.border-left-dark-3, .border-l-theme-dark-3{
+  border-left-color: $dark-3;
+}
+.border-left-dark-2, .border-l-dark-2{
+  border-left-color: $dark-2;
+}
+.border-left-dark-1, .border-l-dark-1{
+  border-left-color: $dark-1;
+}
+
+.border-left-light-1, .border-l-light-1{
+  border-left-color: $light-1;
+}
+.border-left-light-2, .border-l-light-2{
+  border-left-color: $light-2;
+}
+.border-left-light-3, .border-l-light-3{
+  border-left-color: $light-3;
+}
+.border-left-light-4, .border-l-light-4{
+  border-left-color: $light-4;
+}
+.border-left-light-5, .border-l-light-5{
+  border-left-color: $light-5;
+}
+
+.border-left-important-1, .border-l-important-1{
+  border-left-color: $important-1;
+}
+
+.border-left-important-2, .border-l-important-2{
+  border-left-color: $important-2;
+}
+.border-left-important-3, .border-l-important-3{
+  border-left-color: $important-3;
+}
+
+.border-left-info-1, .border-l-info-1{
+  border-left-color: $info-1;
+}
+.border-left-info-2, .border-l-info-2{
+  border-left-color: $info-2;
+}
+.border-left-info-3, .border-l-info-3{
+  border-left-color: $info-3;
+}
+
+/************ IMPORTANT NOTICE FOR BORDER CLASSES **************/
+
+.border-theme-main-1-i{
+  border-color: $theme-main-1 !important;
+}
+
+.border-theme-main-2-i{
+  border-color: $theme-main-2 !important;
+}
+
+.border-theme-main-3-i{
+  border-color: $theme-main-3 !important;
+}
+
+.border-theme-main-4-i{
+  border-color: $theme-main-4 !important;
+}
+
+.border-theme-main-5-i{
+  border-color: $theme-main-5 !important;
+}
+
+.border-theme-light-2-i{
+  border-color: $theme-light-2 !important;
+}
+
+.border-dark-3-i{
+  border-color: $dark-3 !important;
+}
+.border-dark-2-i{
+  border-color: $dark-2 !important;
+}
+.border-dark-1-i{
+  border-color: $dark-1 !important;
+}
+
+.border-light-1-i{
+  border-color: $light-1 !important;
+}
+.border-light-2-i{
+  border-color: $light-2 !important;
+}
+.border-light-3-i{
+  border-color: $light-3 !important;
+}
+.border-light-4-i{
+  border-color: $light-4 !important;
+}
+.border-light-5-i{
+  border-color: $light-5 !important;
+}
+
+.border-important-1-i{
+  border-color: $important-1 !important;
+}
+
+.border-important-2-i{
+  border-color: $important-2 !important;
+}
+.border-important-3-i{
+  border-color: $important-3 !important;
+}
+
+.border-info-1-i{
+  border-color: $info-1 !important;
+}
+.border-info-2-i{
+  border-color: $info-2 !important;
+}
+.border-info-3-i{
+  border-color: $info-3 !important;
+}
+
+/****** HORIZONTAL ************/
+
+.border-horizontal-theme-main-1-i, .border-h-theme-main-1-i {
+  border-left-color: $theme-main-1!important;
+  border-right-color: $theme-main-1!important;
+}
+.border-horizontal-theme-main-2-i, .border-h-theme-main-2-i {
+  border-left-color: $theme-main-2!important;
+  border-right-color: $theme-main-2!important;
+}
+.border-horizontal-theme-main-3-i, .border-h-theme-main-3-i {
+  border-left-color: $theme-main-3!important;
+  border-right-color: $theme-main-3!important;
+}
+.border-horizontal-theme-main-4-i, .border-h-theme-main-4-i {
+  border-left-color: $theme-main-4!important;
+  border-right-color: $theme-main-4!important;
+}
+.border-horizontal-theme-main-5-i, .border-h-theme-main-5-i {
+  border-left-color: $theme-main-5!important;
+  border-right-color: $theme-main-5!important;
+}
+.border-horizontal-theme-light-2-i, .border-h-theme-light-2-i{
+  border-left-color: $theme-light-2!important;
+  border-right-color: $theme-light-2!important;
+}
+
+.border-horizontal-dark-3-i, .border-h-dark-3-i{
+  border-left-color:$dark-3!important;
+  border-right-color:$dark-3!important;
+}
+.border-horizontal-dark-2-i, .border-h-dark-2-i{
+  border-left-color:$dark-2!important;
+  border-right-color:$dark-2!important;
+}
+.border-horizontal-dark-1-i, .border-h-dark-1-i{
+  border-left-color:$dark-1!important;
+  border-right-color:$dark-1 !important;
+}
+.border-horizontal-light-1-i, .border-h-light-1-i{
+  border-left-color:$light-1 !important;
+  border-right-color:$light-1 !important;
+}
+.border-horizontal-light-2-i, .border-h-light-2-i{
+  border-left-color:$light-2 !important;
+  border-right-color:$light-2 !important;
+}
+.border-horizontal-light-3-i, .border-h-light-3-i{
+  border-left-color:$light-3 !important;
+  border-right-color:$light-3 !important;
+}
+.border-horizontal-light-4-i, .border-h-light-4-i{
+  border-left-color: $light-4 !important;
+  border-right-color:$light-4 !important;
+}
+.border-horizontal-light-5-i, .border-h-light-5-i{
+  border-left-color:$light-5 !important;
+  border-right-color:$light-5 !important;
+}
+/**** IMPORTANT AND INFO ****/
+.border-horizontal-important-1-i, .border-h-important-1-i {
+  border-left-color: $important-1 !important;
+  border-right-color: $important-1 !important;
+}
+.border-horizontal-important-2-i, .border-h-important-2-i {
+  border-left-color: $important-2 !important;
+  border-right-color: $important-2 !important;
+}
+.border-horizontal-important-3-i, .border-h-important-3-i {
+  border-left-color: $important-3 !important;
+  border-right-color: $important-3 !important;
+}
+.border-horizontal-info-1-i, .border-h-info-1-i {
+  border-left-color:$info-1 !important;
+  border-right-color:$info-1 !important;
+}
+.border-horizontal-info-2-i, .border-h-info-2-i {
+  border-left-color:$info-2 !important;
+  border-right-color:$info-2 !important;
+}
+
+.border-horizontal-info-3-i, .border-h-info-3-i {
+  border-left-color:$info-3 !important;
+  border-right-color:$info-3 !important;
+}
+/******************* VERTICAL ***************************/
+.border-vertical-theme-main-1-i, .border-v-theme-main-1-i {
+  border-top-color: $theme-main-1 !important;
+  border-bottom-color: $theme-main-1 !important;
+}
+.border-vertical-theme-main-2-i, .border-v-theme-main-2-i {
+  border-top-color: $theme-main-2 !important;
+  border-bottom-color: $theme-main-2 !important;
+}
+.border-vertical-theme-main-3-i, .border-v-theme-main-3-i {
+  border-top-color: $theme-main-3 !important;
+  border-bottom-color: $theme-main-3 !important;
+}
+.border-vertical-theme-main-4-i, .border-v-theme-main-4-i {
+  border-top-color: $theme-main-4 !important;
+  border-bottom-color: $theme-main-4 !important;
+}
+.border-vertical-theme-main-5-i, .border-v-theme-main-5-i {
+  border-top-color: $theme-main-5 !important;
+  border-bottom-color: $theme-main-5 !important;
+}
+.border-vertical-theme-light-2-i, .border-v-theme-light-2-i {
+  border-top-color: $theme-light-2 !important;
+  border-bottom-color: $theme-light-2 !important;
+}
+
+.border-vertical-dark-1-i, .border-v-dark-1-i {
+  border-top-color: $dark-1 !important;
+  border-bottom-color: $dark-1 !important;
+}
+.border-vertical-dark-2-i, .border-v-dark-2-i {
+  border-top-color: $dark-2 !important;
+  border-bottom-color: $dark-2 !important;
+}
+.border-vertical-dark-3-i, .border-v-dark-3-i {
+  border-top-color: $dark-1 !important;
+  border-bottom-color: $dark-1 !important;
+}
+
+.border-vertical-light-1-i, .border-v-light-1-i {
+  border-top-color: $light-1 !important;
+  border-bottom-color: $light-1 !important;
+}
+.border-vertical-light-2-i, .border-v-light-2-i {
+  border-top-color: $light-2 !important;
+  border-bottom-color: $light-2 !important;
+}
+.border-vertical-light-3-i, .border-v-light-3-i {
+  border-top-color: $light-3 !important;
+  border-bottom-color: $light-3 !important;
+}
+.border-vertical-light-4-i, .border-v-light-4-i {
+  border-top-color: $light-4 !important;
+  border-bottom-color: $light-4 !important;
+}
+.border-vertical-light-5-i, .border-v-light-5-i {
+  border-top-color: $light-5 !important;
+  border-bottom-color: $light-5 !important;
+}
+
+.border-vertical-important-1-i, .border-v-important-1-i {
+  border-top-color: $important-1 !important;
+  border-bottom-color: $important-1 !important;
+}
+.border-vertical-important-2-i, .border-v-important-2-i {
+  border-top-color: $important-2 !important;
+  border-bottom-color: $important-2 !important;
+}
+.border-vertical-important-3-i, .border-v-important-3-i {
+  border-top-color: $important-3 !important;
+  border-bottom-color: $important-3 !important;
+}
+.border-vertical-info-1-i, .border-v-info-1-i {
+  border-top-color:$info-1 !important;
+  border-bottom-color:$info-1 !important;
+}
+.border-vertical-info-2-i, .border-v-info-2-i {
+  border-top-color:$info-2 !important;
+  border-bottom-color:$info-2 !important;
+}
+
+.border-vertical-info-3-i, .border-v-info-3-i {
+  border-top-color:$info-3 !important;
+  border-bottom-color:$info-3 !important;
+}
+
+
+//TOP
+.border-top-theme-main-1-i, .border-t-theme-main-1-i{
+  border-color: $theme-main-1 !important;
+}
+.border-top-theme-main-2-i, .border-t-theme-main-2-i{
+  border-color: $theme-main-2 !important;
+}
+.border-top-theme-main-3-i, .border-t-theme-main-3-i{
+  border-color: $theme-main-3 !important;
+}
+.border-top-theme-main-4-i, .border-t-theme-main-4-i{
+  border-color: $theme-main-4 !important;
+}
+.border-top-theme-main-5-i, .border-t-theme-main-5-i{
+  border-color: $theme-main-5 !important;
+}
+.border-top-theme-light-2-i, .border-t-theme-light-2-i{
+  border-color: $theme-main-2 !important;
+}
+/*** dark and light ****/
+.border-top-dark-3-i, .border-t-dark-3-i{
+  border-color: $dark-3 !important;
+}
+.border-top-dark-2-i, .border-t-dark-2-i{
+  border-color: $dark-2 !important;
+}
+.border-top-dark-1-i, .border-t-dark-1-i{
+  border-color: $dark-1 !important;
+}
+.border-top-light-1-i, .border-t-light-1-i{
+  border-color: $light-1 !important;
+}
+.border-top-light-2-i, .border-t-light-2-i{
+  border-color: $light-2 !important;
+}
+.border-top-light-3-i, .border-t-light-3-i{
+  border-color: $light-3 !important;
+}
+.border-top-light-4-i, .border-t-light-4-i{
+  border-color: $light-4 !important;
+}
+.border-top-light-5-i, .border-t-light-5-i{
+  border-color: $light-5 !important;
+}
+/**** IMPORTANT AND INFO ****/
+.border-top-important-1-i, .border-t-important-1-i{
+  border-color: $important-1 !important;
+}
+.border-top-important-2-i, .border-t-important-2-i{
+  border-color: $important-2 !important;
+}
+.border-top-important-3-i, .border-t-important-3-i{
+  border-color: $important-3 !important;
+}
+.border-top-info-1-i, .border-t-info-1-i{
+  border-color: $info-1 !important;
+}
+.border-top-info-2-i, .border-t-info-2-i{
+  border-color: $info-2 !important;
+}
+.border-top-info-3-i, .border-t-info-3-i{
+  border-color: $info-3 !important;
+}
+
+
+/*** BOTTOM ***/
+
+.border-bottom-theme-main-1-i, .border-b-theme-main-1-i{
+  border-color: $theme-main-1 !important;
+}
+.border-bottom-theme-main-2-i, .border-b-theme-main-2-i{
+  border-color: $theme-main-2 !important;
+}
+.border-bottom-theme-main-3-i, .border-b-theme-main-3-i{
+  border-color: $theme-main-3 !important;
+}
+.border-bottom-theme-main-4-i, .border-b-theme-main-4-i{
+  border-color: $theme-main-4 !important;
+}
+.border-bottom-theme-main-5-i, .border-b-theme-main-5-i{
+  border-color: $theme-main-5 !important;
+}
+.border-bottom-theme-light-2-i, .border-b-theme-light-2-i{
+  border-color: $theme-main-2 !important;
+}
+/*** dark and light ****/
+.border-bottom-dark-3-i, .border-b-dark-3-i{
+  border-color: $dark-3 !important;
+}
+.border-bottom-dark-2-i, .border-b-dark-2-i{
+  border-color: $dark-2 !important;
+}
+.border-bottom-dark-1-i, .border-b-dark-1-i{
+  border-color: $dark-1 !important;
+}
+.border-bottom-light-1-i, .border-b-light-1-i{
+  border-color: $light-1 !important;
+}
+.border-bottom-light-2-i, .border-b-light-2-i{
+  border-color: $light-2 !important;
+}
+.border-bottom-light-3-i, .border-b-light-3-i{
+  border-color: $light-3 !important;
+}
+.border-bottom-light-4-i, .border-b-light-4-i{
+  border-color: $light-4 !important;
+}
+.border-bottom-light-5-i, .border-b-light-5-i{
+  border-color: $light-5 !important;
+}
+/*** IMPORTANT CASES ****/
+.border-bottom-important-1-i, .border-bottom-i-1-i{
+  border-color: $important-1 !important;
+}
+.border-bottom-important-2-i, .border-bottom-i-2-i{
+  border-color: $important-2 !important;
+}
+.border-bottom-important-3-i, .border-bottom-i-3-i{
+  border-color: $important-3 !important;
+}
+.border-bottom-info-1-i, .border-b-info-1-i{
+  border-color: $important-1 !important;
+}
+.border-bottom-info-2-i, .border-b-info-2-i{
+  border-color: $important-2 !important;
+}
+.border-bottom-info-3-i, .border-b-info-3-i{
+  border-color: $important-3 !important;
+}
+
+//RIGHT
+.border-right-theme-main-1-i, .border-r-theme-main-1-i {
+  border-right-color: $theme-main-1 !important;
+}
+
+.border-right-theme-main-2-i, .border-r-theme-main-2-i{
+  border-right-color: $theme-main-2 !important;
+}
+
+.border-right-theme-main-3-i, .border-r-theme-main-3-i{
+  border-right-color: $theme-main-3 !important;
+}
+
+.border-right-theme-main-4-i, .border-r-theme-main-4-i{
+  border-right-color: $theme-main-4 !important;
+}
+
+.border-right-theme-main-5-i, .border-r-theme-main-5-i{
+  border-right-color: $theme-main-5 !important;
+}
+
+.border-right-theme-light-2-i, .border-r-theme-light-2-i{
+  border-right-color: $theme-light-2 !important;
+}
+
+.border-right-dark-3-i, .border-r-theme-dark-3-i{
+  border-right-color: $dark-3 !important;
+}
+.border-right-dark-2-i, .border-r-dark-2-i{
+  border-right-color: $dark-2 !important;
+}
+.border-right-dark-1-i, .border-r-dark-1-i{
+  border-right-color: $dark-1 !important;
+}
+
+.border-right-light-1-i, .border-r-light-1-i{
+  border-right-color: $light-1 !important;
+}
+.border-right-light-2-i, .border-r-light-2-i{
+  border-right-color: $light-2 !important;
+}
+.border-right-light-3-i, .border-r-light-3-i{
+  border-right-color: $light-3 !important;
+}
+.border-right-light-4-i, .border-r-light-4-i{
+  border-right-color: $light-4 !important;
+}
+.border-right-light-5-i, .border-r-light-5-i{
+  border-right-color: $light-5 !important;
+}
+
+.border-right-important-1-i, .border-r-important-1-i{
+  border-right-color: $important-1 !important;
+}
+
+.border-right-important-2-i, .border-r-important-2-i{
+  border-right-color: $important-2 !important;
+}
+.border-right-important-3-i, .border-r-important-3-i{
+  border-right-color: $important-3 !important;
+}
+
+.border-right-info-1-i, .border-r-info-1-i{
+  border-right-color: $info-1 !important;
+}
+.border-right-info-2-i, .border-r-info-2-i{
+  border-right-color: $info-2 !important;
+}
+.border-right-info-3-i, .border-r-info-3-i{
+  border-right-color: $info-3 !important;
+}
+
+
+
+//LEFT
+.border-left-theme-main-1-i, .border-l-theme-main-1-i {
+  border-left-color: $theme-main-1 !important;
+}
+
+.border-left-theme-main-2-i, .border-l-theme-main-2-i{
+  border-left-color: $theme-main-2 !important;
+}
+
+.border-left-theme-main-3-i, .border-l-theme-main-3-i{
+  border-left-color: $theme-main-3 !important;
+}
+
+.border-left-theme-main-4-i, .border-l-theme-main-4-i{
+  border-left-color: $theme-main-4 !important;
+}
+
+.border-left-theme-main-5-i, .border-l-theme-main-5-i{
+  border-left-color: $theme-main-5 !important;
+}
+
+.border-left-theme-light-2-i, .border-l-theme-light-2-i{
+  border-left-color: $theme-light-2 !important;
+}
+
+.border-left-dark-3-i, .border-l-theme-dark-3-i{
+  border-left-color: $dark-3 !important;
+}
+.border-left-dark-2-i, .border-l-dark-2-i{
+  border-left-color: $dark-2 !important;
+}
+.border-left-dark-1-i, .border-l-dark-1-i{
+  border-left-color: $dark-1 !important;
+}
+
+.border-left-light-1-i, .border-l-light-1-i{
+  border-left-color: $light-1 !important;
+}
+.border-left-light-2-i, .border-l-light-2-i{
+  border-left-color: $light-2 !important;
+}
+.border-left-light-3-i, .border-l-light-3-i{
+  border-left-color: $light-3 !important;
+}
+.border-left-light-4-i, .border-l-light-4-i{
+  border-left-color: $light-4 !important;
+}
+.border-left-light-5-i, .border-l-light-5-i{
+  border-left-color: $light-5 !important;
+}
+
+.border-left-important-1-i, .border-l-important-1-i{
+  border-left-color: $important-1 !important;
+}
+
+.border-left-important-2-i, .border-l-important-2-i{
+  border-left-color: $important-2 !important;
+}
+.border-left-important-3-i, .border-l-important-3-i{
+  border-left-color: $important-3 !important;
+}
+
+.border-left-info-1-i, .border-l-info-1-i{
+  border-left-color: $info-1 !important;
+}
+.border-left-info-2-i, .border-l-info-2-i{
+  border-left-color: $info-2 !important;
+}
+.border-left-info-3-i, .border-l-info-3-i{
+  border-left-color: $info-3 !important;
+}
+
+
+
