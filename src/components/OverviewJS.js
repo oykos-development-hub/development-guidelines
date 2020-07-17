@@ -1,10 +1,17 @@
 // External dependencies
 import React from "react";
+import {UtilService} from "../services/util.service";
 
 
 export default class OverviewJS extends React.Component {
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        let element = false;
+        element = UtilService.DOM.selectDomElements('div.row');
+        console.log('element',element);
     }
 
     render() {
