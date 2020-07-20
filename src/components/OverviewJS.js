@@ -10,7 +10,9 @@ export default class OverviewJS extends React.Component {
 
     componentDidMount() {
         let element = false;
-        element = UtilService.DOM.selectDomElements('div.row');
+
+        element = UtilService.DOM.$getElement('*div.row');
+
         console.log('element',element);
     }
 
