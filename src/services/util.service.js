@@ -1,29 +1,35 @@
 export const UtilService = {
     DOM: {
-        demoSelectFunction: (selector) => {
+        $getElement: (selector) => {
             let element = false;
+            const selectorType =
+                selector[0] === '*' ? 'QUERY' :
+                    selector[0] === '#' ? 'ID' :
+                        selector[0] === '.' ? 'CLASS' : 'TAG';
 
-            if (selector) {
-                element = document.querySelectorAll(selector);
+            switch (selectorType) {
+                case 'ID':
+                    selector = selector.replace('#', '');
+                    element = document.getElementById(selector);
+
+                    break;
+                case 'CLASS':
+                    selector = selector.replace('.', '');
+                    element = document.getElementsByClassName(selector);
+
+                    break;
+                case 'TAG':
+                    element = document.getElementsByTagName(selector);
+
+                    break;
+                case 'QUERY':
+                    selector = selector.substr(1);
+                    element = document.querySelectorAll(selector);
+
+                    break;
             }
-            
+
             return element;
         },
-        selectDomElements: (selector) => {
-            let element = false;
-            
-            if (typeof(selector)==='string' && selector.charAt(0)==='#') {
-                selector = selector.substring(1);
-                element = document.getElementById(selector);
-            }
-            if (typeof(selector)==='string' && selector.charAt(0)==='.') {
-                selector = selector.substring(1);
-                element = document.getElementsByClassName(selector);
-            } else {
-                element = document.querySelectorAll(selector);
-            }
-            
-            return element;
-        }
     }
 };
