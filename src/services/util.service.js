@@ -31,5 +31,29 @@ export const UtilService = {
 
             return element;
         },
+        $cloneElement: (selector) => {
+            let el = document.querySelectorAll(selector);
+            let clonedElement = el[0].cloneNode(true);
+            clonedElement.removeAttribute('id');
+            el[0].appendChild(clonedElement);
+            return clonedElement;
+        },
+        $createElement: (element, content) => {
+            let el = document.createElement(element);
+            let elContent = document.createTextNode(content);
+            el.appendChild(elContent);
+            document.body.appendChild(el);
+        },
+        $appendChildToElement: (child, parent) => {
+            let parentElement = document.querySelectorAll(parent);
+            let childElement = document.createElement(child);
+            childElement.innerHTML = '<div>Child Element</div>';
+            parentElement[0].appendChild(childElement);
+            return parentElement;
+        },
+        $setContent: (element, content) => {
+            let el = document.querySelectorAll(element);
+            let elContent = el[0].innerHTML = content;
+        }
     }
 };
