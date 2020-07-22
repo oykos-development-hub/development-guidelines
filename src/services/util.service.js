@@ -38,17 +38,24 @@ export const UtilService = {
             el[0].appendChild(clonedElement);
             return clonedElement;
         },
-        $createElement: (element, content) => {
-            let el = document.createElement(element);
-            let elContent = document.createTextNode(content);
-            el.appendChild(elContent);
-            document.body.appendChild(el);
+        $createElement: (el, attrs) => {
+            let element = document.createElement(el);
+            for (let val in attrs) {
+                if (element.setAttribute) {
+                    if (element[val] in element) {
+                        element.setAttribute(val, attrs[val]);
+                    } else {
+                        element[val] = attrs[val];
+                    }
+                } else {
+                    element[val] = attrs[val];
+                }
+            }
+            return element;
         },
-        $appendChildToElement: (child, parent) => {
+        $appendChildToElement: (parent, child) => {
             let parentElement = document.querySelectorAll(parent);
-            let childElement = document.createElement(child);
-            childElement.innerHTML = '<div>Child Element</div>';
-            parentElement[0].appendChild(childElement);
+            parentElement[0].appendChild(child);
             return parentElement;
         },
         $setContent: (element, content) => {
