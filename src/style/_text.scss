@@ -174,3 +174,11 @@
 .text-center {
   text-align: center;
 }
+
+.rotate{
+  transform: rotate(-90deg);
+}
+
+.rotate-1 {
+  transform: rotate(+90deg);
+}
