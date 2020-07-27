@@ -1,5 +1,9 @@
 // External dependencies
 import React from "react";
+import Dashboard from "./Dashboard";
+import Stats from "./Stats";
+import About from "./About"
+
 
 export default class Practise extends React.Component {
     constructor(props) {
@@ -12,7 +16,10 @@ export default class Practise extends React.Component {
                 Practise Page
             </div>
 
-            <div id="mainPage" className="column align-stretch margin-v-40 margin-h-30">
+            <div id="mainPage">
+            <Dashboard text="Marko" />
+            <Stats text="Oykos Development" />
+            <About text="React" />
 
             </div>
         </div>);
