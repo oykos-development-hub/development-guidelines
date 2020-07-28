@@ -34,7 +34,28 @@ export default class App extends React.Component {
                 <Route exact path="/">
                     <Overview/>
                 </Route>
+                <Route exact path="/ab">
+                    <About/>
+                </Route>
+
+                <Route exact path="/ds">
+                    <Dashboard/>
+                </Route>
+
+                <Route exact path="/st">
+                    <Stats/>
+                </Route>
             </Switch>
         </Router>);
     }
+    
 }
+function About() {
+    return <h2>Marko Djikanovic</h2>;
+  }
+  function Dashboard() {
+    return <h2>Oykos Development</h2>;
+  }
+  function Stats() {
+    return <h2>Programming</h2>;
+  }
