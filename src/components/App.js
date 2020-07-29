@@ -1,10 +1,13 @@
 // External dependencies
 import React from "react";
+import {StoreService} from '../services/store.service';
+
 import {
     BrowserRouter as Router,
     Switch,
     Route,
 } from "react-router-dom";
+
 // Internal dependencies
 import "../style/main.scss";
 import Overview from './Overview';
@@ -14,6 +17,7 @@ import Practise from "./Practise";
 export default class App extends React.Component {
     constructor(props) {
         super(props);
+        StoreService.initialize();
     }
 
     render() {
