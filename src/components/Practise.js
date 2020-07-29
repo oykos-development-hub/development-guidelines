@@ -20,10 +20,17 @@ export default class Practise extends React.Component {
         this.setState({
             name: e.target.value
         })
+        console.log(this.state.name)
     }
 
     handleSubmit() {
-        StoreService.updateStoreProperty("username", "dino");
+        if(name) {
+        StoreService.updateStoreProperty('name', this.state.name);
+        }
+        StoreService.getStoreProperty('name')
+        console.log('state',this.state.name)
+        console.log('username:', name)
+        
     }
 
 
