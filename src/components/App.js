@@ -10,6 +10,10 @@ import "../style/main.scss";
 import Overview from './Overview';
 import OverviewJS from "./OverviewJS";
 import Practise from "./Practise";
+import About from "./About";
+import Dashboard from "./Dashboard";
+import Stats from "./Stats";
+
 
 export default class App extends React.Component {
     constructor(props) {
@@ -21,6 +25,18 @@ export default class App extends React.Component {
             <Switch>
                 <Route exact path="/practise">
                     <Practise />
+                </Route>
+
+                <Route exact path="/about">
+                    <About />
+                </Route>
+
+                <Route exact path="/stats">
+                    <Stats />
+                </Route>
+
+                <Route exact path="/dashboard">
+                    <Dashboard />
                 </Route>
 
                 <Route exact path="/js">
