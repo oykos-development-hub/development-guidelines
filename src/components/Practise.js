@@ -31,8 +31,6 @@ export default class Practise extends React.Component {
     }
 
     handleSubmit() {
-        let name = this.state.name;
-        let email = this.state.email
         if(this.state.name && this.state.email) {
         StoreService.updateStoreProperty('name', this.state.name);
         StoreService.updateStoreProperty('email', this.state.email);

@@ -1,12 +1,17 @@
 // External dependencies
 import React from "react";
+import { StoreService } from "../services/store.service";
+
 
 
 export default class App extends React.Component {
     constructor(props) {
         super(props);
     }
-
+    componentDidMount() {
+        const name = StoreService.getStoreProperty('name');
+        console.log(name);
+    }
     render() {
         return (<div id="Overview" className="flex-column">
             <div id="header" className="row center border-b-1 padding-v-40 margin-h-30 large-text bold">
