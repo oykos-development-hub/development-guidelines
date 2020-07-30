@@ -10,11 +10,15 @@ import "../style/main.scss";
 import Overview from './Overview';
 import OverviewJS from "./OverviewJS";
 import Practise from "./Practise";
+import {StoreService} from '../services/store.service';
 
 export default class App extends React.Component {
     constructor(props) {
         super(props);
+        StoreService.initialize();
     }
+
+    
 
     render() {
         return (<Router>
