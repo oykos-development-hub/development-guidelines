@@ -1,37 +1,29 @@
 // External dependencies
 import React from "react";
-
+import {StoreService} from "../services/store.service";
 export default class Practise extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             email: '',
             password: ''
+
           };
-          this.handleEmailChange = this.handleEmailChange.bind(this);
-          this.handlePasswordChange = this.handlePasswordChange.bind(this);
+          this.handleChange = this.handleChange.bind(this);
+          this.handleSubmit = this.handleSubmit.bind(this);
         }
-        handleEmailChange (evt) {
-            this.setState({ email: evt.target.value });
+        handleChange (evt) {
+            //  we get the evt.target.name (which will be either "email" or "password")
+            // and use it to target the key on our `state` object with the same name, using bracket syntax
+            this.setState({ [evt.target.name]: evt.target.value });
           }
-          
-          handlePasswordChange (evt) {
-            this.setState({ password: evt.target.value });
-          }
+ 
 
-    //     componentDidMount(){
-        //store service svrha je da radi kao lokalna baza 
-        //da nam podatak ostane u browseru, mi pozivamo updatestorepropertu funkciju
-        //npr hocemo da update-ujemo pasword ili email ili username kazemo koji cemo,  
-        //kazemo koji properti hocemo da updatejumo
-        //imamo objekat story koji je kolekcija 
-        //na klik submita zelim da taj username sacuvam 
-    // StoreService.updateStoreProperty(property:'this.state.email');
-    // StoreService.getStoreProperty(property:'email');    ovo je da nam vrati poslednju vrijednost
-    // }
-    
+    handleSubmit(event) {
+        alert('A email was submitted: ' + this.state.value);
+        event.preventDefault();
+      }
 
-    
 
     render() {
         return (<div id="practise" className="flex-column">
@@ -40,16 +32,25 @@ export default class Practise extends React.Component {
             </div>
 
             <div id="mainPage" className="column center align-center">
-            <label>Email</label>
-            <input type="text" name="email" onChange={this.handleEmailChange} />
 
-            <label>Password</label>
-            <input type="text" name="password" onChange={this.handlePasswordChange} />
-            <button className="margin-t-20 padding-10 bg-theme-main-3 color-light-5 pointer" 
+            <form onSubmit={this.handleSubmit}>
+            <label className="margin-r-30">Email</label>
+            <input type="text" name="email" onChange={this.handleChange} className="margin-r-30" value={this.state.name} />
+            <label className="margin-r-30">Password</label>
+            <input type="text" name="password" onChange={this.handleChange} value={this.state.name} />
+            <input type="submit" value="Submit" 
             onClick={()=>{
-                 console.log(this.state);
-                }}
-            >Submit</button>
+                StoreService.updateStoreProperty("email",this.state.email);
+                const email=StoreService.getStoreProperty("email");
+                 console.log(email);
+
+                 
+                StoreService.updateStoreProperty("password",this.state.password);
+                 const password=StoreService.getStoreProperty("password"); 
+                 console.log(password);
+                }}/>
+            </form>
+
             </div>
         </div>);
     }
