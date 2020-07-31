@@ -28,11 +28,11 @@ export default class Practise extends React.Component {
                 Practise Page
             </div>
             <div id="mainPage" className="column center align-center">
-            <label>Email</label>
-            <input type="text" name="email" onChange={this.handleEmailChange} value={this.state.name} />
-            <label>Password</label>
-            <input type="text" name="password" onChange={this.handlePasswordChange} value={this.state.name} />
-            <button className="margin-t-20 padding-10 bg-theme-main-3 color-light-5 pointer" 
+            <label className="bold">Email</label>
+            <input className="border-2 w-300" type="text" name="email" onChange={this.handleEmailChange} value={this.state.name} />
+            <label className="bold">Password</label>
+            <input className="border-2 w-300" type="text" name="password" onChange={this.handlePasswordChange} value={this.state.name} />
+            <button className="w-100 border-radius-8 margin-t-20 padding-5 bg-important-3 color-light-5 pointer"
             onClick={()=>{
                  
                  
@@ -41,9 +41,9 @@ export default class Practise extends React.Component {
                 StoreService.updateStoreProperty("password",this.state.password);
                 const password=StoreService.getStoreProperty("password");
                 console.log(email);
-                 console.log(password);
+                console.log(password);
                 }}
-            >Submit</button>
+            >Submit     </button>
            
             </div>
         </div>);
