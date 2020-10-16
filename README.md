@@ -20,11 +20,10 @@ project
 
 ```
 
-
 #### Writing code:
 
-- Prettier - settings (4spaces, double quotes)
-- Let + const umjesto var
+-   Prettier - settings (4spaces, double quotes)
+-   Let + const umjesto var
 
 ## SCSS
 
@@ -36,10 +35,9 @@ project
 -   prefx:min (add prefixes + minified)
 -   build:compile (compile minified)
 -   build:autoprefix (run both prefx scripts)
--   build:css (run both build commands: minifed + prefixes)
+-   build-css (run both build commands: minifed + prefixes)
 
 #### Folder structure:
-
 
 ```bash
 scss

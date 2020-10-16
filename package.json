@@ -10,7 +10,7 @@
     "prefx:min": "postcss --use autoprefixer -b \"last 10 versions\" public/css/style.min.css -o public/css/style.min.css --no-map",
     "build:compile": "node-sass ./scss/main.scss ./css/style.css && node-sass ./scss/main.scss public/css/style.min.css --output-style compressed",
     "build:autoprefix": "npm run prefx && npm run prefx:min",
-    "build:css": "run-s build:**",
+    "build-css": "run-s build:**",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
