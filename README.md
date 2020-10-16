@@ -21,7 +21,7 @@
 
 #### Folder layout:
 
-```
+```bash
 scss
 |
 └───abstracts
