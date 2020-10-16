@@ -25,22 +25,22 @@
 scss
 │
 ├── abstracts
-│    ├──_mixins.scss
-│    ├──_variables.scss
+│    ├── _mixins.scss
+│    ├── _variables.scss
 │
 ├── init
-│    ├──_init.scss
+│    ├── _init.scss
 │
 ├── layout
-│    ├──_[everything layout related].scss
+│    ├── _[everything layout related].scss
 │
 ├── pages
-│    ├──_[pageName].scss
+│    ├── _[pageName].scss
 │
 ├── utils
-│    ├──_fonts.scss
-│    ├──_normalize.scss
-│    ├──_utils.scss
+│    ├── _fonts.scss
+│    ├── _normalize.scss
+│    ├── _utils.scss
 │
 └── main.scss - entry file za svaki dokument (direktno ili skup iz foldera)
 ```
