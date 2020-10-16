@@ -2,6 +2,25 @@
 
 ## General rules
 
+#### Folder structure:
+
+```bash
+project
+│
+├── public
+│    ├── compiled css
+│    ├── images
+│    ├── rest of public folder
+│
+├── scss
+│
+└── src
+
+
+
+```
+
+
 #### Writing code:
 
 - Prettier - settings (4spaces, double quotes)
@@ -19,7 +38,8 @@
 -   build:autoprefix (run both prefx scripts)
 -   build:css (run both build commands: minifed + prefixes)
 
-#### Folder layout:
+#### Folder structure:
+
 
 ```bash
 scss
