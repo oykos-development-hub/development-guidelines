@@ -4,8 +4,8 @@
 
 #### Writing code:
 
-1. Prettier - settings (4spaces, double quotes)
-2. Let + const umjesto var
+- Prettier - settings (4spaces, double quotes)
+- Let + const umjesto var
 
 ## SCSS
 
