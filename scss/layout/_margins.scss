@@ -1,0 +1,582 @@
+/**********     MARGIN STYLES    **********/
+.margin-0,
+.ma-0 {
+    margin: 0;
+}
+
+.margin-5,
+.ma-5 {
+    margin: 0.5rem;
+}
+
+.margin-7,
+.ma-7 {
+    margin: 0.7rem;
+}
+
+.margin-10,
+.ma-10 {
+    margin: 1rem;
+}
+
+.margin-13,
+.ma-13 {
+    margin: 1.3rem;
+}
+
+.margin-15,
+.ma-15 {
+    margin: 1.5rem;
+}
+
+.margin-20,
+.ma-20 {
+    margin: 2rem;
+}
+
+.margin-25,
+.ma-25 {
+    margin: 2.5rem;
+}
+
+.margin-30,
+.ma-30 {
+    margin: 3rem;
+}
+
+.margin-40,
+.ma-40 {
+    margin: 4rem;
+}
+
+.margin-50,
+.ma-50 {
+    margin: 5rem;
+}
+
+.margin-60,
+.ma-60 {
+    margin: 6rem;
+}
+
+.margin-70,
+.ma-70 {
+    margin: 7rem;
+}
+.margin-80,
+.ma-80 {
+    margin: 8rem;
+}
+
+.margin-90,
+.ma-90 {
+    margin: 9rem;
+}
+
+.margin-100,
+.ma-100 {
+    margin: 10rem;
+}
+
+// Horizontal margin
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-h-0,
+.mx-0 .margin-horizontal-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.margin-h-5,
+.mx-5,
+.margin-horizontal-5 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.margin-h-7,
+.mx-7,
+.margin-horizontal-7 {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+
+.margin-h-10,
+.mx-10,
+.margin-horizontal-10 {
+    margin-left: 1rem;
+    margin-right: 10px;
+}
+
+.margin-h-13,
+.mx-13,
+.margin-horizontal-13 {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+.margin-h-15,
+.mx-15,
+.margin-horizontal-15 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.margin-h-20,
+.mx-20,
+.margin-horizontal-20 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.margin-h-25,
+.mx-25,
+.margin-horizontal-25 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.margin-h-30,
+.mx-30,
+.margin-horizontal-30 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.margin-h-40,
+.mx-40,
+.margin-horizontal-40 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.margin-h-50,
+.mx-50,
+.margin-horizontal-50 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.margin-h-60,
+.mx-60,
+.margin-horizontal-60 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.margin-h-70,
+.mx-70,
+.margin-horizontal-70 {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.margin-h-80,
+.mx-80,
+.margin-horizontal-80 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.margin-h-90,
+.mx-90,
+.margin-horizontal-90 {
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+.margin-h-100,
+.mx-100,
+.margin-horizontal-100 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+//**************** Vertical margin *****************
+
+.margin-v-0,
+.my-0 .margin-vertical-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin-v-5,
+.my-5 .margin-vertical-5 {
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+.margin-v-7,
+.my-7 .margin-vertical-7 {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.margin-v-10,
+.my-10,
+.margin-vertical-10 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.margin-v-13,
+.my-13,
+.margin-vertical-13 {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.margin-v-15,
+.my-15,
+.margin-vertical-15 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.margin-v-20,
+.my-20,
+.margin-vertical-20 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.margin-v-25,
+.my-25,
+.margin-vertical-25 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.margin-v-30,
+.my-30,
+.margin-vertical-30 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.margin-v-40,
+.my-40,
+.margin-vertical-40 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.margin-v-50,
+.my-50,
+.margin-vertical-50 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.margin-v-60,
+.my-60,
+.margin-vertical-60 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.margin-v-70,
+.my-70,
+.margin-vertical-70 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.margin-v-80,
+.my-80,
+.margin-vertical-80 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.margin-v-90,
+.my-90,
+.margin-vertical-90 {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+
+.margin-v-100,
+.my-100,
+.margin-vertical-100 {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+//****************** Margin-top ****************
+.margin-t-0,
+.mt-0,
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-t-5,
+.mt-5,
+.margin-top-5 {
+    margin-top: 0.5rem;
+}
+
+.margin-t-7,
+.mt-7,
+.margin-top-7 {
+    margin-top: 0.7rem;
+}
+
+.margin-t-10,
+.mt-10,
+.margin-top-10 {
+    margin-top: 1rem;
+}
+
+.margin-t-15,
+.mt-15,
+.margin-top-15 {
+    margin-top: 1.5rem;
+}
+
+.margin-t-20,
+.mt-20,
+.margin-top-20 {
+    margin-top: 2rem;
+}
+
+.margin-t-25,
+.mt-25,
+.margin-top-25 {
+    margin-top: 2.5rem;
+}
+
+.margin-t-30,
+.mt-30,
+.margin-top-30 {
+    margin-top: 3rem;
+}
+
+.margin-t-40,
+.mt-40,
+.margin-t-40 {
+    margin-top: 4rem;
+}
+
+.margin-t-50,
+.mt-50,
+.margin-top-50 {
+    margin-top: 5rem;
+}
+
+.margin-t-100,
+.mt-100,
+.margin-m-100,
+.margin-top-100 {
+    margin-top: 10rem;
+}
+
+//*************** Margin right ***********************
+.margin-r-0,
+.mr-0,
+.margin-right-0 {
+    margin-right: 0;
+}
+
+.margin-r-3,
+.mr-3,
+.margin-right-3 {
+    margin-right: 0.3rem;
+}
+
+.margin-r-5,
+.mr-5,
+.margin-right-5 {
+    margin-right: 0.5rem;
+}
+
+.margin-r-7,
+.mr-7,
+.margin-right-7 {
+    margin-right: 0.7rem;
+}
+
+.margin-r-10,
+.mr-10,
+.margin-right-10 {
+    margin-right: 1rem;
+}
+
+.margin-r-15,
+.mr-15,
+.margin-right-15 {
+    margin-right: 1.5rem;
+}
+
+.margin-r-20,
+.mr-20,
+.margin-right-20 {
+    margin-right: 2rem;
+}
+
+.margin-r-25,
+.mr-25,
+.margin-right-25 {
+    margin-right: 2.5rem;
+}
+
+.margin-r-30,
+.mr-30,
+.margin-right-30 {
+    margin-right: 3rem;
+}
+
+.margin-r-35,
+.mr-35,
+.margin-right-35 {
+    margin-right: 3.5rem;
+}
+
+.margin-r-40,
+.mr-40,
+.margin-right-40 {
+    margin-right: 4rem;
+}
+
+.margin-r-50,
+.mr-50,
+.margin-right-50 {
+    margin-right: 5rem;
+}
+
+.margin-r-100,
+.mr-100,
+.margin-right-100 {
+    margin-right: 10rem;
+}
+
+//******************** Margin bottom ***************
+.margin-b-0,
+.mb-0,
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.margin-b-5,
+.mb-5,
+.margin-bottom-5 {
+    margin-bottom: 0.5rem;
+}
+
+.margin-b-7,
+.mb-7,
+.margin-bottom-7 {
+    margin-bottom: 0.7rem;
+}
+
+.margin-b-10,
+.mb-10,
+.margin-bottom-10 {
+    margin-bottom: 1rem;
+}
+
+.margin-b-15,
+.mb-15,
+.margin-bottom-15 {
+    margin-bottom: 1.5rem;
+}
+
+.margin-b-20,
+.mb-20,
+.margin-bottom-20 {
+    margin-bottom: 2rem;
+}
+
+.margin-b-25,
+.mb-25,
+.margin-bottom-25 {
+    margin-bottom: 2.5rem;
+}
+
+.margin-b-30,
+.mb-30,
+.margin-bottom-30 {
+    margin-bottom: 3rem;
+}
+
+.margin-b-50,
+.mb-50,
+.margin-bottom-50 {
+    margin-bottom: 5rem;
+}
+
+.margin-b-100,
+.mb-100,
+.margin-bottom-100 {
+    margin-bottom: 10rem;
+}
+
+//***************** Margin left *****************
+.margin-l-0,
+.ml-0,
+.margin-left-0 {
+    margin-left: 0;
+}
+.margin-l-5,
+.ml-5,
+.margin-left-5 {
+    margin-left: 0.5rem;
+}
+
+.margin-l-7,
+.ml-7,
+.margin-left-7 {
+    margin-left: 0.7rem;
+}
+
+.margin-l-10,
+.ml-10,
+.margin-left-10 {
+    margin-left: 1rem;
+}
+
+.margin-l-13,
+.ml-13,
+.margin-left-13 {
+    margin-left: 1.3rem;
+}
+
+.margin-l-15,
+.ml-15,
+.margin-left-15 {
+    margin-left: 1.5rem;
+}
+
+.margin-l-20,
+.ml-20,
+.margin-left-20 {
+    margin-left: 2rem;
+}
+
+.margin-l-25,
+.ml-25,
+.margin-left-25 {
+    margin-left: 2.5rem;
+}
+
+.margin-l-30,
+.ml-30,
+.margin-left-30 {
+    margin-left: 3rem;
+}
+
+.margin-l-50,
+.ml-50,
+.margin-left-50 {
+    margin-left: 5rem;
+}
+
+.margin-l-100,
+.ml-100,
+.margin-left-100 {
+    margin-left: 10rem;
+}

@@ -1,13 +1,22 @@
 /*******************************/
-/* INIT                        */
+/* ABSTRACTS                   */
 /*******************************/
-
-@import "utils/normalize";
 
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
+/*******************************/
+/* INIT                        */
+/*******************************/
+
+@import "init/normalize";
 @import "init/init";
+
+/*******************************/
+/* LAYOUT                      */
+/*******************************/
+
+@import "layout/layout";
 
 /*******************************/
 /* UTILS                       */
@@ -15,7 +24,6 @@
 
 @import "utils/utils";
 @import "utils/fonts";
-@import "utils/grid";
 
 /*******************************/
 /* COMPONENTS                  */

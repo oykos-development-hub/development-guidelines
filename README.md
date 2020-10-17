@@ -15,15 +15,22 @@ project
 ├── scss
 │
 └── src
-
-
-
 ```
 
 #### Writing code:
 
 -   Prettier - settings (4spaces, double quotes)
--   Let + const umjesto var
+-   Let & const umjesto var
+
+#### Resources:
+
+-   Webp images + jpg fallback
+-   Responsive image display in html
+-   Minifikacija fajlova
+-   Lokalno skladistenje fontova
+-   Koriscenje woff i woff2 formata fontova
+-   SVG gdje god je moguce umjesto jpg/png
+-   SVG kao code element ne kao img src
 
 ## SCSS
 
@@ -62,3 +69,23 @@ scss
 │
 └── main.scss - entry file za svaki dokument (direktno ili skup iz foldera)
 ```
+
+#### Changes:
+
+###### Margins:
+
+-   margins - skraceno na "ma-[value]" - px zamjenjeni sa rem
+-   margin horizontal - skraceno na mx-[value] - px zamjenjeni sa rem - dodat mx-auto za centriranje elemenata
+-   margin vertical - skraceno na my-[value] - px zamjenjeni sa rem
+-   margin top - skraceno na mt-[value] - px zamjenjeni sa rem
+-   margin right - skraceno na mr-[value] - px zamjenjeni sa rem
+-   margin left - skraceno na mr-[value] - px zamjenjeni sa rem
+-   removed important and percentage margins
+
+#### To do:
+
+###### Margins:
+
+-   [x] Shorten margins + rem umjesto px
+-   [ ] Margins media queries
+-   [ ] Margins combine margins into shorthand properties
