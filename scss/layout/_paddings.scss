@@ -1,0 +1,567 @@
+/**********     padding STYLES    **********/
+.padding-0,
+.p-0 {
+    padding: 0;
+}
+
+.padding-2,
+.p-2 {
+    padding: 0.2rem;
+}
+
+.padding-5,
+.p-5 {
+    padding: 0.5rem;
+}
+
+.padding-7,
+.p-7 {
+    padding: 0.7rem;
+}
+
+.padding-10,
+.p-10 {
+    padding: 1rem;
+}
+
+.padding-13,
+.p-13 {
+    padding: 1.3rem;
+}
+
+.padding-15,
+.p-15 {
+    padding: 1.5rem;
+}
+
+.padding-20,
+.p-20 {
+    padding: 2rem;
+}
+
+.padding-25,
+.p-25 {
+    padding: 2.5rem;
+}
+
+.padding-30,
+.p-30 {
+    padding: 3rem;
+}
+
+.padding-40,
+.p-40 {
+    padding: 4rem;
+}
+
+.padding-50,
+.p-50 {
+    padding: 5rem;
+}
+
+.padding-60,
+.p-60 {
+    padding: 6rem;
+}
+
+.padding-70,
+.p-70 {
+    padding: 7rem;
+}
+
+.padding-80,
+.p-80 {
+    padding: 8rem;
+}
+
+.padding-90,
+.p-90 {
+    padding: 9rem;
+}
+
+.padding-100,
+.p-100 {
+    padding: 10rem;
+}
+
+// Horizontal padding
+.padding-h-0,
+.ph-0,
+.padding-horizontal-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.padding-h-5,
+.ph-5,
+.padding-horizontal-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.padding-h-7,
+.ph-7,
+.padding-horizontal-7 {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.padding-h-10,
+.px-10,
+.padding-horizontal-10 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.padding-h-13,
+.px-13,
+.padding-horizontal-13 {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+}
+
+.padding-h-15,
+.px-15,
+.padding-horizontal-15 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.padding-h-20,
+.px-20,
+.padding-horizontal-20 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.padding-h-25,
+.px-25,
+.padding-horizontal-25 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.padding-h-30,
+.px-30,
+.padding-horizontal-30 {
+    padding-left: 3rem;
+    padding-right: 30px;
+}
+
+.padding-h-40,
+.px-40,
+.padding-horizontal-40 {
+    padding-left: 4rem;
+    padding-right: 40px;
+}
+
+.padding-h-50,
+.px-50,
+.padding-horizontal-50 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.padding-h-60,
+.px-60,
+.padding-horizontal-60 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.padding-h-70,
+.px-70,
+.padding-horizontal-70 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.padding-h-80,
+.px-80,
+.padding-horizontal-80 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.padding-h-90,
+.px-90,
+.padding-horizontal-90 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+.padding-h-100,
+.px-100,
+.padding-horizontal-100 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+//**************** Vertical padding *****************
+
+.padding-v-0,
+.py-0,
+.padding-vertical-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.padding-v-5,
+.py-5,
+.padding-vertical-5 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.padding-v-7,
+.py-7,
+.padding-vertical-7 {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.padding-v-10,
+.py-10,
+.padding-vertical-10 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.padding-v-13,
+.py-13,
+.padding-vertical-13 {
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.padding-v-15,
+.py-15,
+.padding-vertical-15 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.padding-v-20,
+.py-20,
+.padding-vertical-20 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.padding-v-25,
+.py-25,
+.padding-vertical-25 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.padding-v-30,
+.py-30,
+.padding-vertical-30 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.padding-v-40,
+.py-40,
+.padding-vertical-40 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.padding-v-50,
+.py-50,
+.padding-vertical-50 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.padding-v-60,
+.py-60,
+.padding-vertical-60 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.padding-v-70,
+.py-70,
+.padding-vertical-70 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.padding-v-80,
+.py-80,
+.padding-vertical-80 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.padding-v-90,
+.py-90,
+.padding-vertical-90 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.padding-v-100,
+.py-100,
+.padding-vertical-100 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+//****************** padding-top ****************
+.padding-t-0,
+.pt-0,
+.padding-top-0 {
+    padding-top: 0;
+}
+
+.padding-t-5,
+.pt-5,
+.padding-top-5 {
+    padding-top: 0.5rem;
+}
+
+.padding-t-7,
+.pt-7,
+.padding-top-7 {
+    padding-top: 0.7rem;
+}
+
+.padding-t-10,
+.pt-10,
+.padding-top-10 {
+    padding-top: 1rem;
+}
+
+.padding-t-15,
+.pt-15,
+.padding-top-15 {
+    padding-top: 1.5rem;
+}
+
+.padding-t-20,
+.pt-20,
+.padding-top-20 {
+    padding-top: 2rem;
+}
+
+.padding-t-25,
+.pt-25,
+.padding-top-25 {
+    padding-top: 2.5rem;
+}
+
+.padding-t-30,
+.pt-30,
+.padding-top-30 {
+    padding-top: 3rem;
+}
+
+.padding-t-50,
+.pt-50,
+.padding-top-50 {
+    padding-top: 5rem;
+}
+
+.padding-t-100,
+.pt-100,
+.padding-top-100 {
+    padding-top: 10rem;
+}
+
+//*************** padding right ***********************
+.padding-r-0,
+.pr-0,
+.padding-right-0 {
+    padding-right: 0;
+}
+
+.padding-r-5,
+.pr-5,
+.padding-right-5 {
+    padding-right: 0.5rem;
+}
+
+.padding-r-7,
+.pr-7,
+.padding-right-7 {
+    padding-right: 0.7rem;
+}
+
+.padding-r-10,
+.pr-10,
+.padding-right-10 {
+    padding-right: 1rem;
+}
+
+.padding-r-15,
+.pr-15,
+.padding-right-15 {
+    padding-right: 1.5rem;
+}
+
+.padding-r-20,
+.pr-20,
+.padding-right-20 {
+    padding-right: 2rem;
+}
+
+.padding-r-25,
+.pr-25,
+.padding-right-25 {
+    padding-right: 2.5rem;
+}
+
+.padding-r-30,
+.pr-30,
+.padding-right-30 {
+    padding-right: 3rem;
+}
+
+.padding-r-35,
+.pr-35,
+.padding-right-35 {
+    padding-right: 3.5rem;
+}
+.padding-r-40,
+.pr-40,
+.padding-right-40 {
+    padding-right: 4rem;
+}
+
+.padding-r-50,
+.pr-50,
+.padding-right-50 {
+    padding-right: 5rem;
+}
+
+.padding-r-100,
+.pr-100,
+.padding-right-100 {
+    padding-right: 10rem;
+}
+
+//******************** padding bottom ***************
+.padding-b-0,
+.pb-0,
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.padding-b-5,
+.pb-5,
+.padding-bottom-5 {
+    padding-bottom: 0.5rem;
+}
+
+.padding-b-7,
+.pb-7,
+.padding-bottom-7 {
+    padding-bottom: 0.7rem;
+}
+
+.padding-b-10,
+.pb-10,
+.padding-bottom-10 {
+    padding-bottom: 1rem;
+}
+
+.padding-b-15,
+.pb-15,
+.padding-bottom-15 {
+    padding-bottom: 1.5rem;
+}
+
+.padding-b-20,
+.pb-20,
+.padding-bottom-20 {
+    padding-bottom: 2rem;
+}
+
+.padding-b-25,
+.pb-25,
+.padding-bottom-25 {
+    padding-bottom: 2.5rem;
+}
+
+.padding-b-30,
+.pb-30,
+.padding-bottom-30 {
+    padding-bottom: 3rem;
+}
+
+.padding-b-50,
+.pb-50,
+.padding-bottom-50 {
+    padding-bottom: 5rem;
+}
+
+.padding-b-100,
+.pb-100,
+.padding-bottom-100 {
+    padding-bottom: 10rem;
+}
+
+//***************** padding left *****************
+.padding-l-0,
+.pl-0,
+.padding-left-0 {
+    padding-left: 0;
+}
+
+.padding-l-5,
+.pl-5,
+.padding-left-5 {
+    padding-left: 0.5rem;
+}
+
+.padding-l-7,
+.pl-7,
+.padding-left-7 {
+    padding-left: 0.7rem;
+}
+
+.padding-l-10,
+.pl-10,
+.padding-left-10 {
+    padding-left: 1rem;
+}
+
+.padding-l-15,
+.pl-15,
+.padding-left-15 {
+    padding-left: 1.5rem;
+}
+
+.padding-l-20,
+.pl-20,
+.padding-left-20 {
+    padding-left: 2rem;
+}
+
+.padding-l-25,
+.pl-25,
+.padding-left-25 {
+    padding-left: 2.5rem;
+}
+
+.padding-l-30,
+.pl-30,
+.padding-left-30 {
+    padding-left: 3rem;
+}
+
+.padding-l-50,
+.pl-50,
+.padding-left-50 {
+    padding-left: 5rem;
+}
+
+.padding-l-100,
+.pl-100,
+.padding-left-100 {
+    padding-left: 10rem;
+}

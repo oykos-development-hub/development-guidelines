@@ -84,7 +84,7 @@ scss
 
 ###### Paddings:
 
--   paddings - skraceno na "ma-[value]" - px zamjenjeni sa rem
+-   paddings - skraceno na "pa-[value]" - px zamjenjeni sa rem
 -   padding horizontal - skraceno na px-[value] - px zamjenjeni sa rem - dodat mx-auto za centriranje elemenata
 -   padding vertical - skraceno na py-[value] - px zamjenjeni sa rem
 -   padding top - skraceno na pt-[value] - px zamjenjeni sa rem
