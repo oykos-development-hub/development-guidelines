@@ -34,15 +34,17 @@ project
 
 ## SCSS
 
-> &nbsp;
-> **NAPOMENA**:
->
-> Font sizes citavog dokumenta je stavljen na "62.5%", sto pod uslovom da default > font size browsera nije diran, znaci da je 1rem = 10px;
->
-> Na uredjajima dje je sirina ekrana manja od 576px, font size se smanjuje na "50%", samim tim citav layout biva prilagodjen manjim ekranima.
->
-> p.s Ovaj pristup dobro skalira i kada neko poveca default font browsera npr. > osobe sa slabijim vidom itd jer za razliku od px koji su fiksni koristi se dinamicka velicina fonta
-> &nbsp;
+---
+
+**NAPOMENA**:
+
+Font sizes citavog dokumenta je stavljen na "62.5%", sto pod uslovom da default font size browsera nije diran, znaci da je 1rem = 10px;
+
+Na uredjajima dje je sirina ekrana manja od 576px, font size se smanjuje na "50%", samim tim citav layout biva prilagodjen manjim ekranima.
+
+p.s Ovaj pristup dobro skalira i kada neko poveca default font browsera npr. osobe sa slabijim vidom itd jer za razliku od px koji su fiksni koristi se dinamicka velicina fonta
+
+---
 
 #### Scripts:
 
