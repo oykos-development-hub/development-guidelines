@@ -34,7 +34,7 @@ project
 
 ## SCSS
 
----
+```
 
 **NAPOMENA**:
 
@@ -44,7 +44,7 @@ Na uredjajima dje je sirina ekrana manja od 576px, font size se smanjuje na "50%
 
 p.s Ovaj pristup dobro skalira i kada neko poveca default font browsera npr. osobe sa slabijim vidom itd jer za razliku od px koji su fiksni koristi se dinamicka velicina fonta
 
----
+```
 
 #### Scripts:
 
