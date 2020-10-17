@@ -82,9 +82,25 @@ scss
 -   margin left - skraceno na mr-[value] - px zamjenjeni sa rem
 -   removed important and percentage margins
 
+###### Paddings:
+
+-   paddings - skraceno na "ma-[value]" - px zamjenjeni sa rem
+-   padding horizontal - skraceno na px-[value] - px zamjenjeni sa rem - dodat mx-auto za centriranje elemenata
+-   padding vertical - skraceno na py-[value] - px zamjenjeni sa rem
+-   padding top - skraceno na pt-[value] - px zamjenjeni sa rem
+-   padding right - skraceno na pr-[value] - px zamjenjeni sa rem
+-   padding left - skraceno na pr-[value] - px zamjenjeni sa rem
+-   removed important and percentage paddings
+
 #### To do:
 
 ###### Margins:
+
+-   [x] Shorten margins + rem umjesto px
+-   [ ] Margins media queries
+-   [ ] Margins combine margins into shorthand properties
+
+###### Paddings:
 
 -   [x] Shorten margins + rem umjesto px
 -   [ ] Margins media queries
