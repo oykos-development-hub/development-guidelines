@@ -96,7 +96,7 @@ scss
 
 ###### Margins:
 
--   [✅] margins - skraceno na "ma-[value]" - px zamjenjeni sa rem
+-   [x] margins - skraceno na "ma-[value]" - px zamjenjeni sa rem
 -   [x] margin horizontal - skraceno na mx-[value] - px zamjenjeni sa rem - dodat mx-auto za centriranje elemenata
 -   [x] margin vertical - skraceno na my-[value] - px zamjenjeni sa rem
 -   [x] margin top - skraceno na mt-[value] - px zamjenjeni sa rem
