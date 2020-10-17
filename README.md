@@ -2,6 +2,10 @@
 
 ## General rules
 
+##### To do:
+
+-   [ ] -   odluciti koji word convetion koristiti camelCase vs snake_case
+
 #### Folder structure:
 
 ```bash
@@ -69,6 +73,7 @@ scss
 │    ├── _init.scss
 │
 ├── layout
+│    ├── background
 │    ├── _[everything layout related].scss
 │
 ├── pages
@@ -84,36 +89,31 @@ scss
 
 #### Changes:
 
-###### Margins:
+###### Colors:
 
--   margins - skraceno na "ma-[value]" - px zamjenjeni sa rem
--   margin horizontal - skraceno na mx-[value] - px zamjenjeni sa rem - dodat mx-auto za centriranje elemenata
--   margin vertical - skraceno na my-[value] - px zamjenjeni sa rem
--   margin top - skraceno na mt-[value] - px zamjenjeni sa rem
--   margin right - skraceno na mr-[value] - px zamjenjeni sa rem
--   margin left - skraceno na mr-[value] - px zamjenjeni sa rem
--   removed important and percentage margins
-
-###### Paddings:
-
--   paddings - skraceno na "pa-[value]" - px zamjenjeni sa rem
--   padding horizontal - skraceno na px-[value] - px zamjenjeni sa rem - dodat mx-auto za centriranje elemenata
--   padding vertical - skraceno na py-[value] - px zamjenjeni sa rem
--   padding top - skraceno na pt-[value] - px zamjenjeni sa rem
--   padding right - skraceno na pr-[value] - px zamjenjeni sa rem
--   padding left - skraceno na pr-[value] - px zamjenjeni sa rem
--   removed important and percentage paddings
-
-#### To do:
+-   [ ] Prebaciti sve boje u zaseban file (abstracts/variables/\_colors.scss)
+-   [ ] Dogovoriti konvenciju oko imenovanja varijabli za boje
 
 ###### Margins:
 
--   [x] Shorten margins + rem umjesto px
+-   [x] margins - skraceno na "ma-[value]" - px zamjenjeni sa rem
+-   [x] margin horizontal - skraceno na mx-[value] - px zamjenjeni sa rem - dodat mx-auto za centriranje elemenata
+-   [x] margin vertical - skraceno na my-[value] - px zamjenjeni sa rem
+-   [x] margin top - skraceno na mt-[value] - px zamjenjeni sa rem
+-   [x] margin right - skraceno na mr-[value] - px zamjenjeni sa rem
+-   [x] margin left - skraceno na mr-[value] - px zamjenjeni sa rem
+-   [x] removed important and percentage margins
 -   [ ] Margins media queries
--   [ ] Margins combine margins into shorthand properties
+-   [ ] Combine margins into shorthand properties
 
 ###### Paddings:
 
--   [x] Shorten margins + rem umjesto px
--   [ ] Margins media queries
--   [ ] Margins combine margins into shorthand properties
+-   [x] paddings - skraceno na "pa-[value]" - px zamjenjeni sa rem
+-   [x] padding horizontal - skraceno na px-[value] - px zamjenjeni sa rem - dodat mx-auto za centriranje elemenata
+-   [x] padding vertical - skraceno na py-[value] - px zamjenjeni sa rem
+-   [x] padding top - skraceno na pt-[value] - px zamjenjeni sa rem
+-   [x] padding right - skraceno na pr-[value] - px zamjenjeni sa rem
+-   [x] padding left - skraceno na pr-[value] - px zamjenjeni sa rem
+-   [x] removed important and percentage paddings
+-   [ ] Paddings media queries
+-   [ ] Combine paddingss into shorthand properties
