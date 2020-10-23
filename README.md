@@ -2,6 +2,10 @@
 
 ## General rules
 
+##### Practices:
+
+-   Create pull request on task completion
+
 ##### To do:
 
 -   [ ] -   odluciti koji word convetion koristiti camelCase vs snake_case
