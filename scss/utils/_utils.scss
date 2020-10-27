@@ -809,48 +809,6 @@
     border-radius: 50%;
 }
 
-//BUTTON
-
-.btn:link,
-.btn:visited,
-.btn:hover,
-.btn:focus,
-.btn:active {
-    outline: none;
-    text-decoration: none;
-}
-
-.btn-primary:link,
-.btn-primary:visited,
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-    background-color: $cl-p;
-}
-
-.btn-primary:hover {
-    background-color: $cl-p-d;
-}
-.btn-secondary {
-    background-color: $cl-s;
-}
-
-.btn-secondary:hover {
-    background-color: $cl-s-d;
-}
-
-.btn-tertiary:link,
-.btn-tertiary:visited,
-.btn-tertiary:hover,
-.btn-tertiary:focus,
-.btn-tertiary:active {
-    background-color: $cl-t;
-}
-
-.btn-tertiary:hover {
-    background-color: $cl-t-d;
-}
-
 ////TRANSITIONS
 
 .transition-1 {
@@ -891,30 +849,4 @@
 
 .transition-10 {
     transition: all 1s ease-in-out;
-}
-
-//BACKGROUND
-
-.bg-primary {
-    background-color: $cl-p;
-}
-
-.bg-secondary {
-    background-color: $cl-s;
-}
-
-.bg-tertiary {
-    background-color: $cl-s;
-}
-
-.bg-lg-1 {
-    background-color: $cl-lg-1;
-}
-
-.bg-lg-2 {
-    background-color: $cl-lg-2;
-}
-
-.bg-lg-3 {
-    background-color: $cl-lg-3;
 }

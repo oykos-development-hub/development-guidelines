@@ -1,0 +1,9 @@
+$items: (5, 10, 20, 30, 40, 50, 55, 60, 70, 80, 100, 120);
+
+@each $i in $items {
+    .margin-v-#{$i},
+    .my-#{$i} .margin-vertical-#{$i} {
+        margin-top: ($i/10) rem;
+        margin-bottom: ($i/10) rem;
+    }
+}
